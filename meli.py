@@ -1,15 +1,77 @@
 #!/usr/bin/env python
 
 import requests
+from requests.auth import HTTPBasicAuth
+import urllib.parse
 import os
 
-user_id = os.environ['MERCADO_LIVRE_USER_ID']
-token_access='APP_USR-8486926819913701-041913-15722792c64956aab1b0d44c5f24971c-360790045'
+MELI_API_URL = 'https://api.mercadolibre.com'
 
-def get_all_meli_products():
-    url = f'https://api.mercadolibre.com/users/{user_id}/items/search'
-    headers = {'Authorization': f'Bearer {token_access}'}
-    r = requests.get(url, headers=headers)
-    return r.json()['results']
+USER_ID = os.environ['MERCADO_LIVRE_USER_ID']
 
-print(get_all_meli_products())
+class MeliInterface():
+    def __init__(self, run_mode='dev'):
+        if run_mode.lower().startswith('prod'):
+            self.ZUNKASITE_HOST = os.environ['ZUNKASITE_HOST_PROD']
+            self.ZUNKASITE_USER = os.environ['ZUNKASITE_USER_PROD']
+            self.ZUNKASITE_PASS = os.environ['ZUNKASITE_PASS_PROD']
+        else:
+            self.ZUNKASITE_HOST = os.environ['ZUNKASITE_HOST_DEV']
+            self.ZUNKASITE_USER = os.environ['ZUNKASITE_USER_DEV']
+            self.ZUNKASITE_PASS = os.environ['ZUNKASITE_PASS_DEV']
+
+    def get_token_access(self):
+        headers = {}
+        url = urllib.parse.urljoin(self.ZUNKASITE_HOST, 'meli/access-token')
+        auth = HTTPBasicAuth(self.ZUNKASITE_USER, self.ZUNKASITE_PASS)
+        r = requests.get(url, headers = headers, auth = auth)
+        if r.status_code == requests.codes.ok:
+            return r.text
+        else:
+            print('Fail to import token access.', r.status_code, r.text)
+
+    def list_all_products(self):
+        token_access = self.get_token_access()
+        url = f'{MELI_API_URL}/users/{USER_ID}/items/search'
+        headers = {'Authorization': f'Bearer {token_access}'}
+        r = requests.get(url, headers=headers)
+        return r.json()['results']
+
+    def get_products(self, meli_products_id):
+        # create a list of products id, with max 10 by item list
+        products_lists = MeliInterface.items_by_lists(meli_products_id)
+        
+        # create urls
+        urls = []
+        for item in products_lists:
+            urls.append(f'{MELI_API_URL}/items?ids={",".join(item)}')
+
+        products = []
+        # request for each item list
+        for url in urls:
+            r = requests.get(url)
+            # each product in the return list
+            for product in r.json():
+                if product['code'] == 200:
+                    products.append(product['body'])
+                else:
+                    print(f'Error getting prodcut {product["body"]["id"]} from meli. Received code {product["code"]}')
+        return products
+
+    @staticmethod
+    def items_by_lists(items, max_size_list=10):
+        l = []
+        for i, v in enumerate(items):
+            #  print(i, i//5, i%5, v)
+            if (i % max_size_list) == 0:
+                l.append([])
+            l[i//max_size_list].append(v)
+        return l
+
+    def __repr__(self):
+        return f'{self.ZUNKASITE_USER}:{self.ZUNKASITE_PASS}@{self.ZUNKASITE_HOST}'
+
+    def __str__(self):
+        return self.__repr__()
+
+#  print(get_all_meli_products(
