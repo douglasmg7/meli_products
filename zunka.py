@@ -1,65 +1,46 @@
 #!/usr/bin/env python
-
+from log import debug, info, warning, error, critical
 import requests
 import os
 
 from pymongo import MongoClient
 
-#  host = 'localhost'
-#  port = '27017'
-#  name = 'zunka'
-#  user = 'app'
-#  password = 'zunKa4a'
+class ZunkaInterface():
+    def __init__(self, run_mode='dev'):
+        self.MONGO_CONN_STR = os.environ['MONGODB_HOST']
+        #  if run_mode.lower().startswith('prod'):
+        #  elif run_mode.lower().startswith('dev'):
+        #  else:
 
-#  MONGO_CONN_STR = f'mongodb://{user}:{password}@{host}:{port}/{name}?authSource=admin'
+    def get_all_products(self):
+        with MongoClient(MONGO_CONN_STR) as client:
+            print(client.list_database_names())
+            db = client['zunka']
+            print(db.list_collection_names())
+            db_products = db['products']
+            for product in db_products.find():
+                print(product['storeProductTitle'])
 
-PROD = False
-DEV = True
+    def get_all_products_with_meli_id(self):
+        with MongoClient(self.MONGO_CONN_STR) as client:
+            #  print(client.list_database_names())
+            db = client['zunka']
+            #  print(db.list_collection_names())
+            db_products = db['products']
+            #  for product in db_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1}):
 
-MONGO_CONN_STR = os.environ['MONGODB_HOST']
+            #  for product in db_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1}):
+                #  print(product)
 
-def set_production():
-    global PROD
-    global DEV
-    PROD = True
-    DEV = not PROD
+            return db_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1})
 
-def get_run_mode():
-    global PROD
-    global DEV
-    return { 'PROD': PROD, 'DEV': DEV }
-
-def get_all_products():
-    with MongoClient(MONGO_CONN_STR) as client:
-        print(client.list_database_names())
-        db = client['zunka']
-        print(db.list_collection_names())
-        db_products = db['products']
-        for product in db_products.find():
-            print(product['storeProductTitle'])
-
-def get_all_products_with_meli_id():
-    with MongoClient(MONGO_CONN_STR) as client:
-        #  print(client.list_database_names())
-        db = client['zunka']
-        #  print(db.list_collection_names())
-        db_products = db['products']
-        #  for product in db_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1}):
-
-        #  for product in db_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1}):
-            #  print(product)
-
-        return db_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1})
-
-
-def get_one_product():
-    with MongoClient(MONGO_CONN_STR) as client:
-        print(client.list_database_names())
-        db = client['zunka']
-        print(db.list_collection_names())
-        db_products = db['products']
-        product = db_products.find_one()
-        print(product['storeProductTitle'])
+    def get_one_product(self):
+        with MongoClient(self.MONGO_CONN_STR) as client:
+            db = client['zunka']
+            debug(db.list_collection_names())
+            db_products = db['products']
+            product = db_products.find_one()
+            debug(product['storeProductTitle'])
 
 #  print(get_all_meli_products())
 #  get_all_products_with_meli_id()

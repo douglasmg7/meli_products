@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+from log import debug, info, warning, error, critical
 import requests
 from requests.auth import HTTPBasicAuth
 import urllib.parse
@@ -57,6 +57,9 @@ class MeliInterface():
                 else:
                     print(f'Error getting prodcut {product["body"]["id"]} from meli. Received code {product["code"]}')
         return products
+
+    def log(self):
+        debug(self.ZUNKASITE_HOST)
 
     @staticmethod
     def items_by_lists(items, max_size_list=10):
