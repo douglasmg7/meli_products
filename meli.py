@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from log import debug, info, warning, error, critical
+from logger import debug, info, warning, error, critical
 import requests
 from requests.auth import HTTPBasicAuth
 import urllib.parse
