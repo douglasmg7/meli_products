@@ -1,0 +1,56 @@
+{
+    "5ef60267dfdfea1f71362716": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5ef60267dfdfea1f71362716"
+        },
+        "createdAt": {
+            "$date": 1593181324638
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductLocation": "",
+        "dealerProductPrice": 20000,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 1,
+        "ean": "",
+        "images": [
+            "upload_2404a9134a4c64632093e963f0cc9d83.jpg",
+            "upload_79ac5b40fb88cf0e046a749969e7e54d.jpg",
+            "upload_18f99fbe73089035de2bb52fe8a04a4d.jpg",
+            "upload_cd4a0f334eaf6eef3a810d79d2cca125.jpg"
+        ],
+        "includeOutletText": true,
+        "includeWarrantyText": true,
+        "marketZoom": true,
+        "mercadoLivreId": "MLB1859797565",
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": true,
+        "storeProductDescription": "",
+        "storeProductDetail": "Produto DellOutlet\nIntel Core i7-10710U\n8GB RAM, SSD 512 NVMe\nTela 13.3\" FullHD\nTeclado retroiluminado\nLeitor biom\u00e9trico\nWindows 10 Pro",
+        "storeProductDiscountEnable": false,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 0,
+        "storeProductHeight": 38,
+        "storeProductId": "TEST XPS-7390-P10S",
+        "storeProductInfoMD": "## Caracter\u00edsticas\n\n### Cores vibrantes\nAo maximizar o espectro de cores 100% sRGB e uma taxa de contraste de 1.500:1, todas as sombras ficam vis\u00edveis e at\u00e9 as cenas mais brilhantes ganham defini\u00e7\u00e3o.\n\n#include srgb\n\n#include dellcinema\n\n### Beleza de todos os \u00e2ngulos\nCom a tecnologia antirreflexo, combinada \u00e0 luminosidade superior de 400 nits, voc\u00ea pode desfrutar desta tela mesmo em lugares externos. Al\u00e9m disso, o painel IPS fornece \u00e2ngulo de vis\u00e3o mais amplo, para que voc\u00ea possa compartilhar sua tela sem perder nada.\n\n#include ips\n\n### Dell Power Manager\nProjetado pela Dell, permite que os usu\u00e1rios personalizem os ru\u00eddos (velocidades da ventoinha), a temperatura e o desempenho do laptop com base em suas prefer\u00eancias usando os modos silencioso, ultradesempenho e resfriamento. Por exemplo, o modo silencioso \u00e9 50% mais silencioso do que os outros modos. Ele tamb\u00e9m proporciona, dinamicamente, a pot\u00eancia m\u00e1xima de seu processador enquanto monitora e gerencia as temperaturas do sistema.\n\n### Bateria de longa dura\u00e7\u00e3o\nAt\u00e9 19 horas e 24 minutos ao usar aplicativos de produtividade, como o Word ou Excel, ou at\u00e9 17 horas e 39 minutos para streaming de conte\u00fado do Netflix em um modelo Full HD. No nosso painel UHD, obtenha at\u00e9 11 horas e 24 minutos ao usar aplicativos de produtividade ou at\u00e9 10 horas e 39 minutos de streaming do Netflix.\n\n### Killer\u2122 AX1650 integrado no chipset\nCom tecnologia Wi-Fi 6 avan\u00e7ada e velocidades te\u00f3ricas de at\u00e9 2,4 Gbit/s, o Killer AX1650 \u00e9 quase tr\u00eas vezes mais r\u00e1pido que a gera\u00e7\u00e3o anterior de produtos CA 2x2 de 80 MHz. Ele prioriza o streaming de v\u00eddeo, a comunica\u00e7\u00e3o e o tr\u00e1fego de jogos no seu sistema para proporcionar experi\u00eancias on-line r\u00e1pidas e sem interrup\u00e7\u00f5es.\n\n### Resistente\nO XPS 13 foi lapidado de um \u00fanico bloco de alum\u00ednio. Portanto, \u00e9 mais dur\u00e1vel do que uma m\u00e1quina composta por partes. A fibra de carbono, inspirada pelo setor aeroespacial, e a fibra de vidro tran\u00e7ada do apoio para as m\u00e3os permitem m\u00e1xima resist\u00eancia e peso m\u00ednimo. O Corning\u00ae Gorilla\u00ae Glass 4 \u00e9 duas vezes mais resistente a danos em compara\u00e7\u00e3o com os produtos da concorr\u00eancia.\n\n### Sistema de resfriamento\nO XPS 13 \u00e9 o primeiro laptop constru\u00eddo com o isolamento t\u00e9rmico GORE\u2122, que fornece n\u00edveis de condutividade t\u00e9rmica inferiores aos do ar em um formato fino e flex\u00edvel. Enquanto o isolamento da Gore direciona o calor para longe do dispositivo, os dual fans e os dissipadores de calor diminuem ainda mais a temperatura do XPS, permitindo maior desempenho em um formato mais fino.\n\n### Voc\u00ea \u00e9 a senha\nO leitor de impress\u00f5es digitais integrado no bot\u00e3o liga/desliga permite fazer login com apenas um toque.\n\n### Comandos de voz\nO XPS 13 responde \u00e0 sua voz a at\u00e9 4,2 metros de dist\u00e2ncia, gra\u00e7as a quatro microfones integrados, \u00e0 Microsoft\u00ae Cortana e \u00e0 tecnologia de voz do Waves. Controle suas playlists e acesse agendamentos, independentemente do ru\u00eddo de fundo.\n\n### Conectividade inovadora\nAs portas Type-C\u2122 ThunderBolt\u2122 3 multi\u00faso permitem recarregar o laptop, conectar-se a v\u00e1rios dispositivos (incluindo suporte para at\u00e9 duas telas 4K) e desfrutar de transfer\u00eancias de dados de at\u00e9 40 Gbit/s, 8 vezes mais r\u00e1pidas do que uma porta USB 3.0.\n\n### Nova Webcam\nA nova webcam do XPS 13 n\u00e3o est\u00e1 apenas menor, ela tamb\u00e9m est\u00e1 melhor. A nova lente de quatro elementos usa mais elementos que uma webcam comum para entregar v\u00eddeo n\u00edtido em todas as \u00e1reas da tela, ao passo que a redu\u00e7\u00e3o temporal de ru\u00eddos usa tecnologia avan\u00e7ada, melhorando significativamente a qualidade do v\u00eddeo, especialmente em condi\u00e7\u00f5es com pouca ilumina\u00e7\u00e3o. A lente \u00e9 montada por m\u00e1quinas extremamente precisas para garantir que todos os pontos da imagem estejam em foco.\n\n### Ecologicamente correto\nReconhecidas com o pr\u00eamio O Melhor da Inova\u00e7\u00e3o da CES\u00ae 2018, nossas bandejas de embalagem pretas est\u00e3o um passo \u00e0 frente da reciclagem. 25% dos materiais consistem em pl\u00e1stico coletado do oceano em \u00e1reas litor\u00e2neas, enquanto os 75% restantes s\u00e3o compostos por outros pl\u00e1sticos reciclados.\n\nSem materiais como c\u00e1dmio, chumbo, merc\u00fario e alguns ftalatos, conta tamb\u00e9m com a certifica\u00e7\u00e3o EPEAT\u00ae 2018 Bronze e n\u00e3o cont\u00e9m BFR/PVC.\n\n90% das pe\u00e7as do laptop podem ser facilmente recicladas ou reutilizadas, e as bandejas das embalagens de bambu s\u00e3o 100% recicl\u00e1veis.\n\n#include dellmobile\n\n#include 10geracao\n\n#include windows10pro",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 50,
+        "storeProductPrice": 30000,
+        "storeProductQtd": 4,
+        "storeProductQtdSold": 37,
+        "storeProductTechnicalInformation": "Processador;Intel\u00ae Core\u2122 i7-10710U (1.1 GHz at\u00e9 4.7 GHz, cache de 12MB, hexa-core, 10\u00aa gera\u00e7\u00e3o)\nPlaca de v\u00eddeo;Integrada Intel\u00ae UHD Graphics\nMem\u00f3ria;8GB, LPDDR3, 2133MHz\nArmazenamento;SSD de 512GB PCIe NVMe M.2\nTela;FullHD de 13.3\" (1920 x 1080) com borda fina\nSistema Operacional;Windows 10 Pro de 64 bits em Portugu\u00eas Brasileiro\nTeclado;Preto retroiluminado com leitor de impress\u00f5es digitais - Em ingl\u00eas\nWireless;Placa de rede Killer\u2122 6 AX1650 (WiFi 2x2) + Bluetooth 5.0\nBateria;4 c\u00e9lulas e 51Wh (integrada)\nPortas e slots;leitor de cart\u00e3o Micro SD, USB-C 3.1 com fornecimento de energia e DisplayPort, Entrada de headset, Slot de trava de seguran\u00e7a Wedge, 2 portas Thunderbolt\u2122 3 com fornecimento de energia e DisplayPort (4 faixas de PCI Express de 3\u00aa gera\u00e7\u00e3o), ndicador do medidor de bateria\nDimens\u00f5es e peso; Altura: 0,78cm a 1,16cm x Largura: 30,2cm x Profundidade: 19,9cm\nPeso inicial: 1,23kg\nC\u00f3digo EAN;7899864928246",
+        "storeProductTitle": "Teste - Ultrabook Dell XPS-7390-P10S",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domic\u00edlio diretamente com a Dell",
+        "storeProductWeight": 3000,
+        "storeProductWidth": 11,
+        "updatedAt": {
+            "$date": 1618838117099
+        },
+        "warrantyMarkdownName": ""
+    }
+}

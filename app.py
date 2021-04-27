@@ -17,3 +17,6 @@ PROD, TEST, DEV = run_mode['PROD'], run_mode['TEST'], run_mode['DEV']
 
 zunka_products = zunka.get_all_products_with_meli_id()
 print(list(zunka_products))
+
+def check_meli_have_all_zunka_products_with_meli_id(zunka_products, meli_products):
+

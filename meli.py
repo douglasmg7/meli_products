@@ -30,33 +30,42 @@ class MeliInterface():
         else:
             print('Fail to import token access.', r.status_code, r.text)
 
-    def list_all_products(self):
+    def get_all_products_id(self):
         token_access = self.get_token_access()
         url = f'{MELI_API_URL}/users/{USER_ID}/items/search'
         headers = {'Authorization': f'Bearer {token_access}'}
         r = requests.get(url, headers=headers)
         return r.json()['results']
 
-    def get_products(self, meli_products_id):
+    # dict of producs by id from a list of meli products id
+    def get_products_from_ids(self, meli_products_id):
+        att = '&attributes={attributes,id,price,category_id,title,available_quantity,pictures,seller_custom_field,sold_quantity,status}'
+
         # create a list of products id, with max 10 by item list
         products_lists = MeliInterface.items_by_lists(meli_products_id)
-        
+
         # create urls
         urls = []
         for item in products_lists:
-            urls.append(f'{MELI_API_URL}/items?ids={",".join(item)}')
+            #  urls.append(f'{MELI_API_URL}/items?ids={",".join(item)}')
+            urls.append(f'{MELI_API_URL}/items?ids={",".join(item)}/{att}')
 
-        products = []
+        products = {}
         # request for each item list
         for url in urls:
+            #  print(url)
             r = requests.get(url)
             # each product in the return list
             for product in r.json():
                 if product['code'] == 200:
-                    products.append(product['body'])
+                    products[product['body']['id']] = product['body']
                 else:
                     print(f'Error getting prodcut {product["body"]["id"]} from meli. Received code {product["code"]}')
         return products
+
+    # get all products
+    def get_all_products(self):
+        return self.get_products_from_ids(self.get_all_products_id())
 
     def log(self):
         debug(self.ZUNKASITE_HOST)

@@ -25,13 +25,23 @@ def test_get_token_access():
     token = meli.get_token_access()
     assert len(token) >= 10
 
-def test_list_all_products():
+def test_get_all_products_id():
     meli = MeliInterface()
-    products = meli.list_all_products()
-    print(products)
+    products = meli.get_all_products_id()
+    assert len(products) > 0
+    #  print(products)
 
-def test_get_products():
+def test_get_products_from_ids():
     meli = MeliInterface()
-    products_id = meli.list_all_products()
-    products = meli.get_products(products_id)
+    products_id = meli.get_all_products_id()[:4]
+    products = meli.get_products_from_ids(products_id)
     assert len(products_id) == len(products)
+    
+def test_get_all_products():
+    meli = MeliInterface()
+    products = meli.get_all_products()
+    assert len(products) > 0
+    # first key
+    key = next(iter(products))
+    assert key.startswith('MLB')
+    assert products[key]['id'].startswith('MLB')
