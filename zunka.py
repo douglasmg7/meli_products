@@ -19,6 +19,7 @@ class ZunkaInterface():
         #  elif run_mode.lower().startswith('dev'):
         #  else:
 
+    # test 
     def get_all_products(self):
         with MongoClient(self.MONGO_CONN_STR) as client:
             print(client.list_database_names())
@@ -28,7 +29,7 @@ class ZunkaInterface():
             for product in db_products.find():
                 print(product['storeProductTitle'])
 
-    # return a dict with key _id for each product with a mercadoLivreId
+    # Return a dict (_id, product) for each product with a mercadoLivreId.
     def get_all_products_with_meli_id(self):
         with MongoClient(self.MONGO_CONN_STR) as client:
             #  print(client.list_database_names())
@@ -44,12 +45,14 @@ class ZunkaInterface():
             #  return col_products.find({ 'mercadoLivreId': { '$exists': True } })
 
             products_by_id = {}
-            for product in col_products.find({ 'mercadoLivreId': { '$exists': True } }):
+            #  for product in col_products.find({ 'mercadoLivreId': { '$exists': True }, 'deletedAt': { '$exists': False } }):
+            for product in col_products.find({ 'mercadoLivreId': { '$exists': True, '$ne': '' }, 'deletedAt': { '$exists': False } }):
                 #  print(product)
                 products_by_id[str(product['_id'])] = product
 
             return products_by_id
 
+    # test
     def get_one_product(self):
         with MongoClient(self.MONGO_CONN_STR) as client:
             db = client['zunka']
@@ -59,20 +62,37 @@ class ZunkaInterface():
             debug(product['storeProductTitle'])
 
     def check_zunka_meli_products_consistence(self, zunka_products, meli_products):
+        # For tests.
+        result = {
+            'no_meli_id': [],
+            'no_meli_product': [],
+            'no_back_reference': [],
+            'not_equal': [],
+        }
         for zunka_id, zunka_product in zunka_products.items():
+            #  print(zunka_id)
             meli_id = zunka_product['mercadoLivreId']
+            # No meli id.
             if meli_id == '' or meli_id == None:
                 warning(f'Zunka product {zunka_id} not have mercadoLivreId')
+                result['no_meli_id'].append(zunka_id)
                 continue
             meli_product = meli_products.get(meli_id)
+            # No meli product.
             if meli_product == None:
                 warning(f'Not have meli product for zunka product {zunka_id} with mercadoLivreId {meli_id}')
+                result['no_meli_product'].append(zunka_id)
                 continue
+            # No back reference.
             if meli_product['seller_custom_field'] != zunka_id:
                 warning(f'Meli product {meli_id} have associated zunka product {meli_product["seller_custom_field"]}, expect to be {zunka_id}')
+                result['no_back_reference'].append(zunka_id)
                 continue
+            # Not equal.
             if not is_zunka_product_and_meli_products_equal():
+                result['not_equal'].append(zunka_id)
                 update_meli_product()
+        return result
 
     def is_zunka_product_and_meli_products_equal(self, zunka_product, meli_product):
         debug(f'todo - check {zunka_product["_id"]} is equal {meli_product["id"]}')

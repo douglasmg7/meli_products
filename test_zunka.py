@@ -27,9 +27,14 @@ def test_check_zunka_meli_products_consistence():
     zunka = ZunkaInterface()
     #  zunka_products = zunka.get_all_products_with_meli_id()
     zunka_products = loadDic('./json/zunka_products.json')
+    # First zunka product.
+    zunka_product_id = next(iter(zunka_products))
 
     meli = MeliInterface()
     #  meli_products = meli.get_all_products()
     meli_products = loadDic('./json/meli_products.json')
 
-    zunka.check_zunka_meli_products_consistence(zunka_products, meli_products)
+    result = zunka.check_zunka_meli_products_consistence(zunka_products, meli_products)
+    print(f'id: {zunka_product_id}')
+    assert zunka_product_id in result['no_meli_product']
+    #  print(result)
