@@ -66,12 +66,15 @@ class ZunkaInterface():
         result = {
             'no_meli_id': [],
             'no_meli_product': [],
+            'no_zunka_product': [],
             'no_back_reference': [],
             'not_equal': [],
+            'updated': [],
         }
+        # From zunka product list.
         for zunka_id, zunka_product in zunka_products.items():
             #  print(zunka_id)
-            meli_id = zunka_product['mercadoLivreId']
+            meli_id = zunka_product.get('mercadoLivreId')
             # No meli id.
             if meli_id == '' or meli_id == None:
                 warning(f'Zunka product {zunka_id} not have mercadoLivreId')
@@ -80,29 +83,82 @@ class ZunkaInterface():
             meli_product = meli_products.get(meli_id)
             # No meli product.
             if meli_product == None:
-                warning(f'Not have meli product for zunka product {zunka_id} with mercadoLivreId {meli_id}')
+                warning(f'zunka product {zunka_id} with mercadoLivreId {meli_id} not have meli product')
                 result['no_meli_product'].append(zunka_id)
                 continue
             # No back reference.
-            if meli_product['seller_custom_field'] != zunka_id:
-                warning(f'Meli product {meli_id} have associated zunka product {meli_product["seller_custom_field"]}, expect to be {zunka_id}')
+            seller_custom_field = meli_product.get('seller_custom_field')
+            if seller_custom_field != zunka_id:
+                warning(f'zunka product {zunka_id} find meli product with seller_custom_field {seller_custom_field}, expect to be {zunka_id}')
                 result['no_back_reference'].append(zunka_id)
                 continue
             # Not equal.
-            if not is_zunka_product_and_meli_products_equal():
+            if not ZunkaInterface.is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
                 result['not_equal'].append(zunka_id)
-                update_meli_product()
+                if self.update_meli_product(zunka_product, meli_product):
+                    result['updated'].append(meli_id)
+
+        # From meli product list.
+        for meli_id, meli_product in meli_products.items():
+            # Meli product already updated.
+            if meli_id in result['updated']
+                continue
+            zunka_id = meli_product.get('seller_custom_field')
+            # No meli product associtade with zunka prodcut.
+            if zunka_id == '' or zunka_id == None:
+                continue
+            zunka_product = zunka_products.get(zunka_id)
+            # No zunka product for meli product.
+            if zunka_product == None:
+                warning(f'No zunka product for meli product {meli_id} with associated zunka product {zunka_id}')
+                result['no_zunka_product'].append(zunka_id)
+                continue
+            # Not equal.
+            if not ZunkaInterface.is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
+                warning(f'Should not get here, something strange, meli product: {meli_id}, zunka product: {zunka_id}')
+
         return result
 
-    def is_zunka_product_and_meli_products_equal(self, zunka_product, meli_product):
-        debug(f'todo - check {zunka_product["_id"]} is equal {meli_product["id"]}')
+    @staticmethod
+    def is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
+        equal = True
+        # Title.
+        if zunka_product.get('storeProductTitle') != meli_product.get('title'):
+            debug(
+                f'zunka product {zunka_product.get("_id")} have different title from meli product {meli_product.get("id")}\n'
+                f'\tzunka title: {zunka_product.get("storeProductTitle")}\n'
+                f'\t meli title: {meli_product.get("title")}'
+            )
+            equal = False
+        # Price.
+        if (zunka_product.get('storeProductPrice') * 100 - meli_product.get('price')) > 1:
+            debug(
+                f'zunka product {zunka_product.get("_id")} have different price from meli product {meli_product.get("id")}\n'
+                f'\tzunka price: {zunka_product.get("storeProductPrice")}\n'
+                f'\t meli price: {meli_product.get("price")}'
+            )
+            equal = False
+        # Stock.
+        if zunka_product.get('storeProductQtd') != meli_product.get('available_quantity'):
+            debug(
+                f'zunka product {zunka_product.get("_id")} have different available_quantity from meli product {meli_product.get("id")}\n'
+                f'\tzunka available_quantity: {zunka_product.get("storeProductQtd")}\n'
+                f'\t meli available_quantity: {meli_product.get("available_quantity")}'
+            )
+            equal = False
+
+        return equal
+
+    @staticmethod
+    def update_meli_product(zunka_product, meli_product):
+        debug(f'todo - update meli product {meli_product["id"]} from zunka {zunka_product["_id"]}')
+        # If updated.
         return True
 
     def update_zunka_product(self, zunka_product, meli_product):
-        debug(f'todo - update {zunka_product["_id"]} from {meli_product["id"]}')
-
-    def update_meli_product(self, meli_product, zunka_product):
-        debug(f'todo - update {meli_product["id"]} from {zunka_product["_id"]}')
+        debug(f'todo - update zunka product {zunka_product["_id"]} from meli product {meli_product["id"]}')
+        # If updated.
+        return True
 
 class JSONEncoder(json.JSONEncoder):
     def default(self, o):
