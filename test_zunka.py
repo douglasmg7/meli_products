@@ -20,48 +20,48 @@ def test_get_all_products_with_meli_id():
     #  print(first_item)
     #  print(products[first_item]['mercadoLivreId'])
 
-# Each zunka product that have a not empty mercadoLivreId,
-# must have a associated meli product that have a seller_custom_field
-# if associated zunka product _id.
-def test_check_zunka_meli_products_consistence():
-    zunka = ZunkaInterface()
-
-    meli = MeliInterface()
-    meli_products = loadDic('./json/meli_products.json')
-
-    # No mercadoLivreId.
-    zunka_products = loadDic('./json/zunka_product_no_mercado_livre_id.json')
-    # First zunka product.
-    zunka_product_id = next(iter(zunka_products))
-    # print(f'id: {zunka_product_id}')
-    result = zunka.check_zunka_meli_products_consistence(zunka_products, meli_products)
-    assert zunka_product_id in result['no_meli_id']
-    #  print(result)
-
+class TestAbcd:
     # No meli product.
-    zunka_products = loadDic('./json/zunka_product_no_meli_product.json')
-    # First zunka product.
-    zunka_product_id = next(iter(zunka_products))
-    # print(f'id: {zunka_product_id}')
-    result = zunka.check_zunka_meli_products_consistence(zunka_products, meli_products)
-    assert zunka_product_id in result['no_meli_product']
-    #  print(result)
+    def test_check_zunka_products_consistence_no_meli_product(self):
+        zunka = ZunkaInterface()
+        meli = MeliInterface()
+
+        meli_products = loadDic('./json/meli_products.json')
+        zunka_products = loadDic('./json/zunka_product_no_meli_product.json')
+
+        # First zunka product.
+        zunka_product_id = next(iter(zunka_products))
+        # print(f'id: {zunka_product_id}')
+        result = zunka.check_zunka_products_consistence(zunka_products, meli_products)
+        assert zunka_product_id in result['no_meli_product']
+        #  print(result)
 
     # No back reference.
-    zunka_products = loadDic('./json/zunka_product_no_back_reference.json')
-    # First zunka product.
-    zunka_product_id = next(iter(zunka_products))
-    # print(f'id: {zunka_product_id}')
-    result = zunka.check_zunka_meli_products_consistence(zunka_products, meli_products)
-    assert zunka_product_id in result['no_back_reference']
-    #  print(result)
+    def test_check_zunka_products_consistence_no_back_reference(self):
+        zunka = ZunkaInterface()
+        meli = MeliInterface()
+
+        meli_products = loadDic('./json/meli_products.json')
+        zunka_products = loadDic('./json/zunka_product_no_back_reference.json')
+
+        # First zunka product.
+        zunka_product_id = next(iter(zunka_products))
+        # print(f'id: {zunka_product_id}')
+        result = zunka.check_zunka_products_consistence(zunka_products, meli_products)
+        assert zunka_product_id in result['no_back_reference']
+        #  print(result)
 
     # zunka product not equal meli product.
-    zunka_products = loadDic('./json/zunka_product.json')
-    meli_products = loadDic('./json/meli_products_diff_title.json')
-    # First zunka product.
-    zunka_product_id = next(iter(zunka_products))
-    # print(f'id: {zunka_product_id}')
-    result = zunka.check_zunka_meli_products_consistence(zunka_products, meli_products)
-    assert zunka_product_id in result['not_equal']
-    print(result)
+    def test_check_zunka_products_consistence_product_diff(self):
+        zunka = ZunkaInterface()
+        meli = MeliInterface()
+
+        meli_products = loadDic('./json/meli_products_diff_title.json')
+        zunka_products = loadDic('./json/zunka_product.json')
+
+        # First zunka product.
+        zunka_product_id = next(iter(zunka_products))
+        # print(f'id: {zunka_product_id}')
+        result = zunka.check_zunka_products_consistence(zunka_products, meli_products)
+        assert zunka_product_id in result['not_equal']
+        print(result)

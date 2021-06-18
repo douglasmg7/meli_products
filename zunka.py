@@ -61,12 +61,11 @@ class ZunkaInterface():
             product = db_products.find_one()
             debug(product['storeProductTitle'])
 
-    def check_zunka_meli_products_consistence(self, zunka_products, meli_products):
+    # Check zunka products consistence.
+    def check_zunka_products_consistence(self, zunka_products, meli_products):
         # For tests.
         result = {
-            'no_meli_id': [],
             'no_meli_product': [],
-            'no_zunka_product': [],
             'no_back_reference': [],
             'not_equal': [],
             'updated': [],
@@ -75,47 +74,69 @@ class ZunkaInterface():
         for zunka_id, zunka_product in zunka_products.items():
             #  print(zunka_id)
             meli_id = zunka_product.get('mercadoLivreId')
+
             # No meli id.
             if meli_id == '' or meli_id == None:
-                warning(f'Zunka product {zunka_id} not have mercadoLivreId')
-                result['no_meli_id'].append(zunka_id)
                 continue
-            meli_product = meli_products.get(meli_id)
+
             # No meli product.
+            meli_product = meli_products.get(meli_id)
             if meli_product == None:
-                warning(f'zunka product {zunka_id} with mercadoLivreId {meli_id} not have meli product')
+                warning(f'zunka product {zunka_id} with mercadoLivreId {meli_id} not found meli product')
                 result['no_meli_product'].append(zunka_id)
                 continue
+
             # No back reference.
             seller_custom_field = meli_product.get('seller_custom_field')
             if seller_custom_field != zunka_id:
-                warning(f'zunka product {zunka_id} find meli product with seller_custom_field {seller_custom_field}, expect to be {zunka_id}')
+                warning(f'zunka product {zunka_id} find meli product {meli_id} with seller_custom_field {seller_custom_field}, expect to be {zunka_id}')
                 result['no_back_reference'].append(zunka_id)
                 continue
+
             # Not equal.
             if not ZunkaInterface.is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
                 result['not_equal'].append(zunka_id)
                 if self.update_meli_product(zunka_product, meli_product):
                     result['updated'].append(meli_id)
 
+        return result
+
+    # Check meli products consistence.
+    def check_meli_products_consistence(self, meli_products, zunka_products):
+        # For tests.
+        result = {
+            'no_zunka_product': [],
+            'no_back_reference': [],
+            'not_equal': [],
+            'updated': [],
+        }
+
         # From meli product list.
         for meli_id, meli_product in meli_products.items():
-            # Meli product already updated.
-            if meli_id in result['updated']
-                continue
-            zunka_id = meli_product.get('seller_custom_field')
             # No meli product associtade with zunka prodcut.
+            zunka_id = meli_product.get('seller_custom_field')
             if zunka_id == '' or zunka_id == None:
                 continue
-            zunka_product = zunka_products.get(zunka_id)
+
             # No zunka product for meli product.
+            zunka_product = zunka_products.get(zunka_id)
             if zunka_product == None:
-                warning(f'No zunka product for meli product {meli_id} with associated zunka product {zunka_id}')
+                warning(f'Meli {meli_id} have no associated zunka product {zunka_id}')
                 result['no_zunka_product'].append(zunka_id)
                 continue
+
+            # No back reference.
+            mercadolivre_id = zunka_product.get('mercadoLivreId')
+            if mercadolivre_id != meli_id:
+                warning(f'Meli product {meli_id} find zunka product {zunka_id} with mercadoLivreId {mercadolivre_id}, expect to be {meli_id}')
+                result['no_back_reference'].append(zunka_id)
+                continue
+
             # Not equal.
             if not ZunkaInterface.is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
-                warning(f'Should not get here, something strange, meli product: {meli_id}, zunka product: {zunka_id}')
+                result['not_equal'].append(meli_id)
+                if self.update_meli_product(zunka_product, meli_product):
+                    result['updated'].append(meli_id)
 
         return result
 
