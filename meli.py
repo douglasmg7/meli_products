@@ -35,6 +35,7 @@ class MeliInterface():
         url = f'{MELI_API_URL}/users/{USER_ID}/items/search'
         headers = {'Authorization': f'Bearer {token_access}'}
         r = requests.get(url, headers=headers)
+        print(f'get_all_products_id: {r.json()}')
         return r.json()['results']
 
     # dict of producs by id from a list of meli products id
