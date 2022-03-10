@@ -7,7 +7,8 @@ import os
 LOG_PATH = os.path.join(os.environ['ZUNKAPATH'], 'log', 'meli_products') 
 LOG_FILE = os.path.join(LOG_PATH, 'meli_products.log')
 if not os.path.isdir(LOG_PATH):
-    os.mkdir(LOG_PATH)
+    # Create multi-level directories.
+    os.makedirs(LOG_PATH)
 
 class MyFormatter(logging.Formatter):
     converter=dt.datetime.fromtimestamp
