@@ -13,6 +13,7 @@ import meli
 class ZunkaInterface():
     def __init__(self, run_mode='dev'):
         self.MONGO_CONN_STR = os.environ['MONGODB_HOST']
+        debug(f'Using db: {self.MONGO_CONN_STR}')
         #  print('__init__')
         #  print(self.MONGO_CONN_STR)
         #  if run_mode.lower().startswith('prod'):
