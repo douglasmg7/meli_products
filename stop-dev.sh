@@ -5,9 +5,16 @@
 
 echo "Deactivating conda env..."
 conda deactivate
-echo "Using $(python --version)"
+# echo "Using $(python --version)"
 
-# [[ `systemctl status mongodb | awk '/Active/{print $2}'` == inactive ]] && sudo systemctl start mongodb
-# [[ `systemctl status redis | awk '/Active/{print $2}'` == inactive ]] && sudo systemctl start redis
-# [[ `systemctl status nginx | awk '/Active/{print $2}'` == inactive ]] && sudo systemctl start nginx
-# exit 0
+# Stop container and docker:
+echo "Stoping zunka_mongo container..."
+docker stop zunka_mongo &> /dev/null
+echo "Stoping zunka_redis container..."
+docker stop zunka_redis &> /dev/null
+
+# if [[ `systemctl status docker | awk '/Active/{print $2}'` == active ]] 
+# then
+    # echo "Stoping docker..."
+    # sudo systemctl stop docker
+# fi
