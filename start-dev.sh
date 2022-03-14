@@ -3,76 +3,12 @@
 # Must run in the current shell enviromnent.
 [[ $0 != -bash ]] && echo Usage: . $BASH_SOURCE && exit 1
 
+# Needed envs.
+[[ -z "$ZUNKA_DOCKER_SCRIPTS" ]] && printf "[script-start-development] [error]: ZUNKA_DOCKER_SCRIPTS enviorment not defined.\n" >&2 && exit 1 
+
 echo "Activating conda env meli_products..."
 conda activate meli_products
-# echo "Using $(python --version)"
 
-# Check environment variable.
-[[ -z "$GS" ]] && printf "[script-start-production] [error]: GS enviorment not defined.\n" >&2 && exit 1 
-
-# Start docker services.
-[[ `systemctl status docker | awk '/Active/{print $2}'` == inactive ]] && sudo systemctl start docker
-sleep .5
-
-# Create or start mongo container.
-if [[ -z $(docker ps -a | grep zunka_mongo) ]]
-# Create and implicit start container.
-then
-    echo 'Creating and starting zunka_mongo container...'
-    docker run -d --name zunka_mongo -v zunka_mongo_volume:/data/db -p 27017:27017 mongo:3.6.3
-    echo '!!! No data, import backup to new created mongo docker'
-# Start zunka_mongo container.
-else
-    [[ -z $(docker ps | grep zunka_mongo) ]] && echo 'Starting zunka_mongo container...' && docker start zunka_mongo &>/dev/null
-fi
-
-echo "To access mongo:"
-echo "  docker exec -it zunka_mongo bash"
-echo "  mongo zunka"
-echo
-
-# Create or start redis container.
-if [[ -z $(docker ps -a | grep zunka_redis) ]]
-# Create and implicit start container.
-then
-    echo 'Creating and starting zunka_redis container...'
-    # docker run -d --name zunka_redis -p 6379:6379 -v "/home/douglasmg7/b:/var/lib/redis/" redis:4.0.9 redis-server --save 60 1 --loglevel warning
-    # docker run -d --name zunka_redis -p 6379:6379 -v "/home/douglasmg7/a:/data" -v "/home/douglasmg7/b:/var/lib/redis/" redis:4.0.9 redis-server --save 60 1
-    docker run -d --name zunka_redis -p 6379:6379 -v "/home/douglasmg7/a:/data"  redis:4.0.9 redis-server --save 60 1 --loglevel warning
---loglevel warning
-    echo '!!! No data, import backup to new created redis docker'
-
-# Start zunka_redis container.
-else
-    [[ -z $(docker ps | grep zunka_redis) ]] && echo 'Starting zunka_redis container...' && docker start zunka_redis &>/dev/null
-
-fi
-
-echo "To access mongo:"
-echo "  docker exec -it zunka_redis sh"
-echo "  redis-cli"
-echo
-
-
-# [[ `systemctl status nginx | awk '/Active/{print $2}'` == inactive ]] && sudo systemctl start nginx
-# sleep .1
-
-# # Start freight server.
-# freightsrv &
-# sleep .1
-
-# # Start zunkasrv server.
-# cd $GS/zunkasrv
-# zunkasrv &
-# cd - > /dev/null
-# sleep .1
-
-# # Start zunka site.
-# cd $GS/zunkasite
-# NODE_ENV=development $GS/zunkasite/bin/www &
-# cd - > /dev/null
-# sleep .1
-
-# Start zoomproducts.
-# zoomproducts &
-# sleep .1
+# Start dockerizeds.
+$ZUNKA_DOCKER_SCRIPTS/start-mongo.sh
+$ZUNKA_DOCKER_SCRIPTS/start-redis.sh

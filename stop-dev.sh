@@ -7,11 +7,9 @@ echo "Deactivating conda env..."
 conda deactivate
 # echo "Using $(python --version)"
 
-# Stop container and docker:
-echo "Stoping zunka_mongo container..."
-docker stop zunka_mongo &> /dev/null
-echo "Stoping zunka_redis container..."
-docker stop zunka_redis &> /dev/null
+# Start dockerizeds.
+$ZUNKA_DOCKER_SCRIPTS/stop-mongo.sh
+$ZUNKA_DOCKER_SCRIPTS/stop-redis.sh
 
 # if [[ `systemctl status docker | awk '/Active/{print $2}'` == active ]] 
 # then
