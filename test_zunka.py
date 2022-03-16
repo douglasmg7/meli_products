@@ -18,8 +18,8 @@ class TestProducts:
         # must have meli id
         assert products[first_item]['mercadoLivreId'].startswith('MLB')
 
-        #  print(first_item)
-        #  print(products[first_item]['mercadoLivreId'])
+        print(first_item)
+        print(products[first_item]['mercadoLivreId'])
 
 class TestAbcd:
     # No meli product.

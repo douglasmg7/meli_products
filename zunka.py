@@ -7,13 +7,14 @@ from bson import ObjectId, json_util
 
 from pymongo import MongoClient 
 
+import util
 import meli
 
 
 class ZunkaInterface():
     def __init__(self, run_mode='dev'):
         self.MONGO_CONN_STR = os.environ['MONGODB_HOST']
-        debug(f'Using db: {self.MONGO_CONN_STR}')
+        debug(f'Using db: {util.obfuscate_mongo_string_connection(self.MONGO_CONN_STR)}')
         #  print('__init__')
         #  print(self.MONGO_CONN_STR)
         #  if run_mode.lower().startswith('prod'):

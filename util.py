@@ -21,3 +21,15 @@ def get_run_mode():
     else:
         debug('Running in development mode')
         return { 'PROD': False, 'DEV': True, 'TEST': False }
+
+def obfuscate_mongo_string_connection(s: str):
+    try:
+        ar = s.split(':')
+        sub_ar = ar[2].split('@') 
+        sub_ar[0] = 'xxxx'
+        ar[2] = '@'.join(sub_ar)
+        r = ':'.join(ar)
+        return r
+    except:
+        error('Could not obfuscate mongo string connection')
+        return 'xxxx'
