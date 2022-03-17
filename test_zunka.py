@@ -2,7 +2,7 @@
 from zunka import ZunkaInterface, loadDic
 from meli import MeliInterface
 
-class TestProducts:
+class TestZunka:
     def test_get_one_product(self):
         zunka = ZunkaInterface()
         product = zunka.get_one_product()
@@ -21,7 +21,7 @@ class TestProducts:
         print(first_item)
         print(products[first_item]['mercadoLivreId'])
 
-class TestAbcd:
+class TestConsistence:
     # No meli product.
     def test_check_zunka_products_consistence_no_meli_product(self):
         zunka = ZunkaInterface()
