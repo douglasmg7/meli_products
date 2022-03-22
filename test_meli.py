@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from meli import MeliInterface
 
-class TestMeli:
+class TestMeliAuth:
     def test_auth_envs(self):
         # development mode
         meli = str(MeliInterface())
@@ -26,6 +26,7 @@ class TestMeli:
         token = meli.get_token_access()
         assert len(token) >= 10
 
+class TestMeliProducts:
     def test_get_all_products_id(self):
         meli = MeliInterface()
         products = meli.get_all_products_id()

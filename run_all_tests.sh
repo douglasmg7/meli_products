@@ -7,11 +7,20 @@
 # pytest ./test_zunka.py -k get_one_product -sv
 # pytest ./test_zunka.py::TestProducts::test_get_all_products_with_meli_id -sv
 
-# All tests.
+
+# # All tests.
+# # Util.
 # pytest ./test_util.py -sv
+
+# # Meli.
+# pytest ./test_meli.py::TestMeliAuth -sv
+# pytest ./test_meli.py::TestMeliProducts -sv
+
+# # Zunka.
 # pytest ./test_zunka.py::TestZunka -sv
+# pytest ./test_zunka.py::TestConsistence -sv
+
 
 # New testes.
-pytest ./test_meli.py::TestMeli -sv
-
+pytest ./test_zunka.py::TestConsistence -sv
 
