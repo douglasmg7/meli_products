@@ -18,9 +18,10 @@
 
 # # Zunka.
 # pytest ./test_zunka.py::TestZunka -sv
-# pytest ./test_zunka.py::TestConsistence -sv
+# pytest ./test_zunka.py::TestConsistenceZunka -sv
+# pytest ./test_zunka.py::TestConsistenceMeli -sv
 
 
 # New testes.
-pytest ./test_zunka.py::TestConsistence -sv
+pytest ./test_zunka.py::TestConsistenceMeli -sv
 

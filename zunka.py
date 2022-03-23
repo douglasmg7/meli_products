@@ -22,7 +22,7 @@ class ZunkaInterface():
         #  else:
 
     # test 
-    def get_all_products(self):
+    def get_all_products_test(self):
         with MongoClient(self.MONGO_CONN_STR) as client:
             print(client.list_database_names())
             db = client['zunka']
@@ -30,6 +30,28 @@ class ZunkaInterface():
             db_products = db['products']
             for product in db_products.find():
                 print(product['storeProductTitle'])
+
+    # Return a dict (_id, product) for each product with a mercadoLivreId.
+    def get_all_products(self):
+        with MongoClient(self.MONGO_CONN_STR) as client:
+            #  print(client.list_database_names())
+            db_zunka = client['zunka']
+            #  print(db_zunka.list_collection_names())
+            col_products = db_zunka['products']
+            #  for product in col_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1}):
+
+            #  for product in col_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1}):
+                #  print(product)
+
+            #  return col_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1})
+            #  return col_products.find({ 'mercadoLivreId': { '$exists': True } })
+
+            products_by_id = {}
+            for product in col_products.find({ 'deletedAt': { '$exists': False } }):
+                #  print(product)
+                products_by_id[str(product['_id'])] = product
+
+            return products_by_id
 
     # Return a dict (_id, product) for each product with a mercadoLivreId.
     def get_all_products_with_meli_id(self):
@@ -65,6 +87,7 @@ class ZunkaInterface():
 
     # Check zunka products consistence.
     def check_zunka_products_consistence(self, zunka_products, meli_products):
+        debug('*** Checking Zunka products consistence ***')
         # For tests.
         result = {
             'no_meli_product': [],
@@ -105,6 +128,7 @@ class ZunkaInterface():
 
     # Check meli products consistence.
     def check_meli_products_consistence(self, meli_products, zunka_products):
+        debug('*** Checking Meli products consistence ***')
         # For tests.
         result = {
             'no_zunka_product': [],
