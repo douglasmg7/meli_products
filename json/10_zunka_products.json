@@ -1,0 +1,488 @@
+{
+    "5b97cd133a8d287da1fbf504": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5b97cd133a8d287da1fbf504"
+        },
+        "createdAt": {
+            "$date": 1536676443382
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 1974,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_910b965ff880c23f625f791d0104d52f.jpg",
+            "upload_a7bb81a7d1162cc113d7dd1c01ea7530.jpg",
+            "upload_f3ce0b3e19840a7a6ac3a92c0fc994b9.jpg",
+            "upload_bbe4debf2b0c23896c1ea6f4dfd50085.jpg",
+            "upload_6433c240c441835097133567e838c777.jpg",
+            "upload_4b77d50dec761347efd7584dbcbfdaf0.jpg",
+            "upload_323204e3e7d224b96dfee33c0ba059dc.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto Outlet; Este \u00e9 um equipamento outlet e pode possuir pequenas avarias est\u00e9ticas (arranh\u00f5es ou amassados), por\u00e9m s\u00e3o totalmente funcionais. Todos os produtos outlet passam pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o recondicionados, testados e reembalados pelo fabricante Dell do Brasil.\nDisco de instala\u00e7\u00e3o; Geralmente o fabricante n\u00e3o nos fornece um disco de instala\u00e7\u00e3o ou recupera\u00e7\u00e3o do sistema, pois isso est\u00e1 integrado no pr\u00f3prio computador, mas se desejar adquirir uma c\u00f3pia desta m\u00eddia, basta solicitar \u00e0 Dell do Brasil.\nGarantia; A garantia de 3 meses \u00e9 integralmente e diretamente com a Dell do Brasil e pode ser estendida em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site www.dell.com.br.\nImagens; Imagens meramente ilustrativas. Especifica\u00e7\u00f5es t\u00e9cnicas sujeitas \u00e0s altera\u00e7\u00f5es sem aviso pr\u00e9vio, conforme a disponibilidade do fabricante.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "Totalmente imersivo e completamente impressionante\nResolu\u00e7\u00e3o da tela: aproveite cada detalhe em uma ampla tela de 15,6\u201d em alta resolu\u00e7\u00e3o e com antirreflexo para que sua experi\u00eancia de visualiza\u00e7\u00e3o seja ainda melhor. \n\nStreaming perfeito: com a tecnologia SmartByte, voc\u00ea n\u00e3o perde nenhum momento, pois seus jogos e streaming nunca s\u00e3o interrompidos. Essa solu\u00e7\u00e3o de rede garante que seus aplicativos mais importantes sejam priorit\u00e1rios e tenham a capacidade de banda necess\u00e1ria para alcan\u00e7ar a performance ideal.\n\nOu\u00e7a cada detalhe: o Waves MaxxAudio Pro otimiza o \u00e1udio para que voc\u00ea possa ouvir os mais diferentes sons, desde shows at\u00e9 trilhas sonoras de filmes e jogos de a\u00e7\u00e3o, com tons ricos e ressonantes\n\nDesign elegante f\u00e1cil de transportar: o novo design mais fino e mais leve deste notebook facilita o transporte, e o acabamento met\u00e1lico atraente de alta qualidade o torna ideal para usar em casa ou em qualquer lugar.\n\nTeclado alfanum\u00e9rico para total produtividade e ilumina\u00e7\u00e3o traseira que permite voc\u00ea digitar em ambientes com baixa luminosidade e aproveitar mais de seu notebook.\n \n\nNovo Inspiron 15 5000 (5570): O primeiro Notebook Dell com a 8\u00aa Gera\u00e7\u00e3o de Processadores Intel\u00ae Core\u2122 no Brasil\nO Inspiron 15 5000 (5570) possui novas tecnologias que ir\u00e3o aprimorar a sua produtividade e trar\u00e3o mais agilidade para todas as demandas as quais voc\u00ea precisa do seu notebook, seja no trabalho ou para entretenimento. Pioneirismo com a 8\u00aa Gera\u00e7\u00e3o de processadores Intel\u00ae Core\u2122 \u00e9 uma das principais novidades.\n\nTestes da Intel\u00ae demonstram performance at\u00e9 40% superior em compara\u00e7\u00e3o com a 7\u00aa Gera\u00e7\u00e3o. Dessa forma, voc\u00ea se mant\u00eam atualizado com as tecnologias mais recentes e poder\u00e1 desfrutar de uma experi\u00eancia de entretenimento imersiva e potencializar ainda mais o seu computador.\n\nA mais recente Gera\u00e7\u00e3o de Processadores Intel\u00ae Core\u2122 disp\u00f5e de diversas novidades e aperfei\u00e7oamentos como cria\u00e7\u00e3o de conte\u00fados e realiza\u00e7\u00e3o de tarefas di\u00e1rias at\u00e9 50%\u00b9 \u00b3 mais r\u00e1pido quando comparado com a 7\u00aa Gera\u00e7\u00e3o de Processadores Intel\u00ae Core\u2122. Al\u00e9m disso, ser\u00e1 possivel alternar entre programas e janelas e executar m\u00faltiplas tarefas sem se preocupar com travamentos, aproveitando um melhor desempenho na web, conforme testes realizados pela Intel\u00ae.\n\nVoc\u00ea ir\u00e1 desfrutar de upload e edi\u00e7\u00e3o de documentos, fotos e v\u00eddeos em quest\u00f5es de poucos minutos, al\u00e9m de criar apresenta\u00e7\u00f5es simult\u00e2neamente sem cortes e lentid\u00e3o. Al\u00e9m disso, \u00e9 possivel reproduzir e editar v\u00eddeos em 4K de uma forma r\u00e1pida e f\u00e1cil com a nova tecnologia das placas gr\u00e1ficas integradas Intel\u00ae UHD que oferecem melhor capacidade gr\u00e1fica para conte\u00fados de extrema qualidade. Dessa forma, voc\u00ea poder\u00e1 visualizar incr\u00edveis detalhes e imagens mais vibrantes e real\u00edsticas.\n \n\nPerformance com grande capacidade de resposta e amplo armazenamento\nMais mem\u00f3ria: com performance avan\u00e7ada, melhor efici\u00eancia no consumo de energia, possui mem\u00f3ria DDR4 de at\u00e9 8GB com a qual voc\u00ea poder\u00e1 executar todos os seus aplicativos e realizar tarefas simult\u00e2neas sem perder tempo.\n\nPlacas gr\u00e1ficas impressionantes: jogue com ainda menos interrup\u00e7\u00f5es e aproveite a efici\u00eancia extra e a performance ideal di\u00e1ria com as placas de v\u00eddeo dedicadas opcionais AMD Radeon\u2122 530 de at\u00e9 4 GB GDDR5.\n\nArmazenamento surpreendente: este notebook oferece v\u00e1rias op\u00e7\u00f5es de armazenamento para performance com grande capacidade de resposta e muito espa\u00e7o para backup, incluindo HDD de at\u00e9 2 TB.\n \n\nRecursos que agradam a todos\nConectividade Universal: o novo padr\u00e3o de USB Type C 3.1 carrega o seu dispositivo, se conecta \u00e0 Ethernet e tamb\u00e9m suporta sa\u00edda de \u00e1udio e v\u00eddeo. Al\u00e9m de tantas fun\u00e7\u00f5es de conectividade, \u00e9 possivel tranfer\u00eancia de dados com muito mais agilidade (somente em configura\u00e7\u00f5es com placa de v\u00eddeo dedicada).\n \n\nMAIS MOBILIDADE PARA VOC\u00ca\nTempo de dura\u00e7\u00e3o de bateria do Inspiron 15 5000 (5570): at\u00e9 10 horas *\n\nA Dell quer que voc\u00ea tenha total liberdade. Por isso, os notebooks s\u00e3o desenvolvidos para proporcionarem o maior tempo poss\u00edvel longe das tomadas. \n\n* Teste realizado nos laborat\u00f3rios da Dell em a gosto de 2017 com Inspiron 15 5000 (modelo 5570), equipado com a 8\u00aa gera\u00e7\u00e3o do processador Intel\u00ae Core\u2122 i5-8250U, placa de v\u00eddeo AMD Radeon 530, mem\u00f3ria de 4GB DDR5, HD 256GB SSD, tela FHD, 3 c\u00e9lulas de bateria de 42WHr e Windows 10. Resultado usando o modelo de teste de bateria Mobile Mark 2014. Para mais informa\u00e7\u00f5es sobre esse modelo de teste, visite www.bapco.com. Os resultados n\u00e3o garantem que voc\u00ea ter\u00e1 exatamente a mesma experi\u00eancia. O tempo de bateria pode ser significativamente menor que o resultado dos testes em decorr\u00eancia da configura\u00e7\u00e3o do produto, software, uso, condi\u00e7\u00f5es operacionais, configura\u00e7\u00f5es do gerenciamento de energia e outros fatores. O tempo m\u00e1ximo da vida de bateria diminuir\u00e1 conforme o tempo e uso.\n \n\nPortas e slots\n1. Leitor de cart\u00e3o SD 3 em 1 | 2. USB 2.0 | 3. Slot do cabo de seguran\u00e7a Noble | 4. Alimenta\u00e7\u00e3o | 5. USB 3.1 Type-C de 1\u00aa Gera\u00e7\u00e3o (opcional) | 6. HDMI | 7. Ethernet RJ-45 10/100 | 8. USB 3.1 de 1\u00aa Gera\u00e7\u00e3o | 9. USB 3.1 de 1\u00aa Gera\u00e7\u00e3o | 10. Entrada combinada (headset / microfone )\u200b\n \n\nDimens\u00f5es e peso\n1. Altura: 1,99 cm \n2. Largura: 38,0 cm\n3. Profundidade: \nPeso inicial: 2,02 kg\n \nProjetado para o mundo real, porque \u00e9 onde a vida acontece.\nQueremos que seu novo PC seja especial para voc\u00ea por muitos anos. \u00c9 por isso que testamos a confiabilidade dos notebooks Inspiron pensando n\u00e3o apenas no agora, mas tamb\u00e9m no futuro.\n\nResistente ao calor: de vesti\u00e1rios a carros fechados, testamos os notebooks Inspiron quanto \u00e0 resist\u00eancia por um curto per\u00edodo em condi\u00e7\u00f5es de calor extremo de at\u00e9 65 \u00b0C (149 \u00b0F).\n\nDobradi\u00e7as s\u00f3lidas: testamos as dobradi\u00e7as do notebook Inspiron para garantir que elas ainda permane\u00e7am firmes mesmo depois de abrir e fechar a tampa 20 mil vezes.\n\nTeclas resistentes: testamos as teclas mais usadas pressionando-as 10 milh\u00f5es de vezes e os bot\u00f5es do touch pad pressionando-os 1 milh\u00e3o de vezes. Eles n\u00e3o apresentaram falhas. V\u00e1 em frente e termine de escrever seu livro.\n\nBot\u00f5es dur\u00e1veis: n\u00e3o importa a configura\u00e7\u00e3o escolhida para seus bot\u00f5es de energia e multim\u00eddia, todos eles foram testados para resistirem a at\u00e9 40 mil toques.\n\nTorce-retorce: pode parecer exagero, mas depois de submeter a base e a tampa do notebook Inspiron a testes de movimento de tor\u00e7\u00e3o mais de 25 mil vezes, podemos garantir que as pe\u00e7as internas est\u00e3o bem-protegidas.\n\nSempre preparado: voc\u00ea provavelmente nunca precisar\u00e1 remover ou reinstalar a bateria do seu Inspiron 30 vezes, mas fique tranquilo, pois realizamos at\u00e9 mesmo esse teste.",
+        "storeProductDetail": "Core i5-8250U\n8GB RAM\nHD 1TB\nAMD Radeon 530 2GB\nTela 15,6 LED\nTeclado retroiluminado\nWindows 10 Pro",
+        "storeProductDiscountEnable": false,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "155570A20",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 2625.42,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 0,
+        "storeProductTechnicalInformation": "Processador; 8\u00aa gera\u00e7\u00e3o de Processadores Intel\u00ae Core\u2122 i5-8250U (1.6 GHz expans\u00edvel at\u00e9 3.4 GHz, SmartCache de 6MB)\nSistema operacional; Windows 10 Pro 64 bits (portugu\u00eas Brasileiro)\nMem\u00f3ria RAM; 8GB (1x8GB), DDR4, 2400MHz, expans\u00edvel at\u00e9 32GB\nArmazenamento; Disco R\u00edgido de 1TB (5400 RPM)\nPlaca de v\u00eddeo; AMD Radeon 530 de 2G GDDR5\nTela; LED HD (1366 x 768) de 15,6\" antirreflexo\nTeclado; padr\u00e3o ABNT2 - em Portugu\u00eas (Brasil), tamanho padr\u00e3o,resistente a derramamento de l\u00edquidos, retroiluminado e alfa-num\u00e9rico\nUnidade \u00f3ptica; Sem unidade \u00f3ptica\nConectividade; 802.11ac + Bluetooth 4.1, Dual Band 2.4&5 GHz\nBateria; Bateria de 3 c\u00e9lulas e 42 Wh (integrada)\nMicrosoft Office; Avalia\u00e7\u00e3o por 30 dias do Microsoft\u00ae Office\nSoftware de Seguran\u00e7a; McAfee LiveSafe - 1 ano\nPorta 1; Uma USB 3.1 Type-C de 1\u00aa Gera\u00e7\u00e3o com PowerDelivery e v\u00eddeo \nPorta 2; Duas USB 3.1 de 1\u00aa Gera\u00e7\u00e3o\nPorta 3; Uma USB 2.0 \nPorta 4; Uma HDMI\u2122 1.4b\nPorta 5; Uma Ethernet RJ-45 10/100 \nPorta 6; Um Slot do cabo de seguran\u00e7a Noble \nPorta 7; Um Leitor de cart\u00e3o de m\u00eddia SD 3 em 1 (SD, SDHC, SDXC)\nC\u00e2mera; Widescreen de alta defini\u00e7\u00e3o (720 p) com microfone digital\nOp\u00e7\u00f5es de cores; Prata\nRecursos personalizados; Alto-falante integrado\nVoltagem; Bivolt \nTecnologia de stream; SmartByte\nTouch pad; Multitoque preciso ativado por gestos com rolagem integrada",
+        "storeProductTitle": "Notebook Dell i15-5570-A20",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domic\u00edlio",
+        "storeProductWeight": 3200,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1536679319312
+        }
+    },
+    "5bb77fb064660516779500e4": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bb77fb064660516779500e4"
+        },
+        "createdAt": {
+            "$date": 1538752863513
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 1705,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_d983c0ecd49b107d7748c140c4d8100c.jpg",
+            "upload_ea25a21f5bbeed1f6b28f2d37366e437.jpg",
+            "upload_846f342a21ce3864ba2844ca6a1c6aae.jpg",
+            "upload_038bf8c97212c141b73686c20d4cd462.jpg",
+            "upload_2f5c82951868f616673131c2f78b0c82.jpg",
+            "upload_36c81dba410fd813849a2031b5d973db.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto Outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante, geralmente pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o recondicionados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90.\nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800 970-3366 ou 0800 970-3384. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "O melhor Windows e o melhor da Dell. O resultado? Uma era totalmente nova de efici\u00eancia, performance e produtividade. O Windows 10 oferece todos os recursos que voc\u00ea j\u00e1 conhece do sistema operacional mais popular do mundo, al\u00e9m de aprimoramentos incr\u00edveis que voc\u00ea vai adorar. Aprimore todas as suas tarefas com os novos recursos do Windows 10:\n\nComuta\u00e7\u00e3o cont\u00ednua: seu Dell 2 em 1 pode alternar a qualquer momento de tablet para notebook, facilitando a transi\u00e7\u00e3o entre reuni\u00f5es conforme necess\u00e1rio. Com a funcionalidade Continuum, seus menus e suas barras de tarefas s\u00e3o ajustadas automaticamente no dispositivo para proporcionar uma experi\u00eancia conveniente.\n\nEstamos aqui para ajud\u00e1-lo: escolha um PC da Dell equipado com a tecnologia MaxxAudio\u00ae da Waves para usar o Cortana, seu pr\u00f3prio assistente digital pessoal. O uso da Cortana com um PC da Dell equipado com tecnologia MaxxAudio\u00ae da Waves oferece a voc\u00ea uma experi\u00eancia natural de intera\u00e7\u00e3o por voz.\n\nComece j\u00e1: com a volta do menu Iniciar do Windows em formato expandido, voc\u00ea se sentir\u00e1 um especialista desde o in\u00edcio. Al\u00e9m disso, todos os seus aplicativos que voc\u00ea fixou ser\u00e3o migrados para proporcionar uma experi\u00eancia familiar, produtiva e melhor do que nunca.\n\nA velocidade de que voc\u00ea precisa: o Windows 10 \u00e9 inicializado e reiniciado rapidamente com o InstaGo, por isso, voc\u00ea n\u00e3o atrasa sua lista de tarefas. At\u00e9 as suas atualiza\u00e7\u00f5es s\u00e3o disponibilizadas rapidamente, para que voc\u00ea sempre tenha os recursos mais recentes e eficientes, que foram desenvolvidos para acompanhar seu estilo de vida agitado, \u00e0 sua disposi\u00e7\u00e3o. \n\nTrabalhe de forma organizada por mais tempo: todos os dispositivos com Windows 10 contam com o Battery Saver, que economiza energia automaticamente para que voc\u00ea possa trabalhar por mais tempo e se divertir mais com os jogos.\n\nWindows Hello: com o sistema de autentica\u00e7\u00e3o biom\u00e9trica Windows Hello, voc\u00ea ter\u00e1 acesso instant\u00e2neo aos seus dispositivos compat\u00edveis com Windows 10 apenas usando sua face, \u00edris ou impress\u00e3o digital para ser reconhecido. E o Windows Hello n\u00e3o \u00e9 s\u00f3 mais conveniente do que digitar uma senha\u2014 ele \u00e9 mais seguro: modernos sensores reconhecem suas caracter\u00edsticas pessoais \u00fanicas para fazer seu login, sem que uma senha seja armazenada no seu dispositivo ou em um servidor de rede.\u200b\n\nNOTEBOOK 2 EM 1 DELL INSPIRON i13-5378-a10 - V\u00e1rios modos. Op\u00e7\u00f5es ideais.\nV\u00e1rios modos. Op\u00e7\u00f5es ideais.\nDobradi\u00e7a resistente: com uma inovadora dobradi\u00e7a de 360 graus, o vers\u00e1til e leve 2 em 1 Inspiron 13 5000 permite que voc\u00ea alterne facilmente entre os quatro modos diferentes. O modo tenda \u00e9 perfeito para ler receitas e coloc\u00e1-las em pr\u00e1tica em tempo real; o modo de suporte \u00e9 \u00f3timo para assistir a filmes no avi\u00e3o; o modo notebook facilita a digita\u00e7\u00e3o ou envio de e-mails de trabalho; e o modo tablet \u00e9 ideal para leitura facilitada quando voc\u00ea estiver em uma posi\u00e7\u00e3o reclinada. \n\nMuitas op\u00e7\u00f5es: um teclado com ilumina\u00e7\u00e3o traseira facilita o trabalho em ambientes com ilumina\u00e7\u00e3o reduzida, e a op\u00e7\u00e3o de c\u00e2mera com infravermelho \u00e9 compat\u00edvel com o Windows Hello para um login por reconhecimento facial r\u00e1pido e seguro.\n\n\nNOTEBOOK 2 EM 1 DELL INSPIRON i13-5378-a10 - Cheio de estilo em todas as situa\u00e7\u00f5es\nCheio de estilo em todas as situa\u00e7\u00f5es.\nPronto para a estrada: 13,3\" \u00e9 nosso tamanho mais popular de dispositivos 2 em 1. Ele \u00e9 f\u00e1cil de carregar na bolsa e oferece muito espa\u00e7o de tela para usar por horas sem cansar a vista.\n\nEspa\u00e7o de tela maximizado: o novo design da S\u00e9rie 5000 destaca o espa\u00e7o de tela maior com bordas mais finas para que voc\u00ea mantenha sua aten\u00e7\u00e3o na tela brilhante com amplo \u00e2ngulo de vis\u00e3o.\n\nDesign impressionante: o acabamento exterior cinza escuro \u00e9 combinado a um interior com o mesmo acabamento, o que proporciona uma apar\u00eancia atraente e profissional, ideal para qualquer ocasi\u00e3o.\n\n\nNOTEBOOK 2 EM 1 DELL INSPIRON i13-5378-a10 - Desenvolvido para alta capacidade de adapta\u00e7\u00e3o. Testado para confiabilidade.\nDesenvolvido para alta capacidade de adapta\u00e7\u00e3o. Testado para confiabilidade.\nSom e imagens incr\u00edveis: cada Inspiron 5000 inclui \u00e1udio Waves MaxxAudio\u00ae Pro e placa gr\u00e1fica HD Intel\u00ae 520 instalada para conferir uma qualidade melhor do que nunca de imagem e som \u00e0 sua m\u00eddia. \n\nDiferen\u00e7a do SSD: as op\u00e7\u00f5es de Unidade de Estado S\u00f3lido (SSD) dispon\u00edveis oferecem maior dura\u00e7\u00e3o da bateria, capacidade de resposta mais r\u00e1pida, performance mais silenciosa e maior resist\u00eancia a choques em compara\u00e7\u00e3o com discos r\u00edgidos tradicionais.\n\nConex\u00e3o: o Inspiron 13 5000 2 em 1 \u00e9 equipado com Wi-Fi 802.11ac (Dual-Band) para conex\u00e3o wireless r\u00e1pida e de longo alcance com menos armazenamento em buffer e menos quedas de conex\u00e3o.\n\n\nNOTEBOOK 2 EM 1 DELL INSPIRON i13-5378-a10 - Portas e slots\nPortas e slots\n1. Bot\u00e3o liga/desliga | 2. Controle de volume | 3. Leitor de cart\u00e3o SD | 4. USB 2.0 | 5. Slot de trava Noble | 6. Entrada CC | 7. HDMI | 8. USB 3.0 Power Share | 9. USB 3.0 | 10. Tomada de \u00e1udio\n\n\nNOTEBOOK 2 EM 1 DELL INSPIRON i13-5378-a10 - Dimens\u00f5es e peso\nDimens\u00f5es e peso\n1. Altura: 1,9 cm \u2013 2,0 cm (0,77\"\u2013 0,80\") | 2. Largura: 32,4 cm (12,76\") | 3. Profundidade: 22,4 cm (8,85\") | Peso: 1,62 kg (3,56 lb)\n\n\nNOTEBOOK 2 EM 1 DELL INSPIRON i13-5378-a10 - Realize suas tarefas por mais tempo\n\nMAIS MOBILIDADE PARA VOC\u00ca\nTempo de dura\u00e7\u00e3o de bateria do Inspiron 13 5000 2 em 1 (5378): at\u00e9 10 horas*\nA Dell quer que voc\u00ea tenha total liberdade. Por isso, os notebooks s\u00e3o desenvolvidos para proporcionarem o maior tempo poss\u00edvel longe das tomadas.\n\n* Teste realizado nos laborat\u00f3rios da Dell em agosto de 2016 com Inspiron 13 5000 2 em 1 (modelo 5378), equipado com a 7\u00aa Gera\u00e7\u00e3o do processador Intel\u00ae Core\u2122 i5-7200U, placa de v\u00eddeo Intel\u00ae HD Graphics 620, mem\u00f3ria de 12GB DDR4, HD 512GB SSD, tela touch FHD, 3 c\u00e9lulas de bateria de 42WHr e Windows 10. Resultado usando o modelo de teste de bateria Mobile Mark 2014. Para mais informa\u00e7\u00f5es sobre esse modelo de teste, visite www.bapco.com. Os resultados n\u00e3o garantem que voc\u00ea ter\u00e1 exatamente a mesma experi\u00eancia. O tempo de bateria pode ser significativamente menor que o resultado dos testes em decorr\u00eancia da configura\u00e7\u00e3o do produto, software, uso, condi\u00e7\u00f5es operacionais, configura\u00e7\u00f5es do gerenciamento de energia e outros fatores. O tempo m\u00e1ximo da vida de bateria diminuir\u00e1 conforme o tempo e uso.\n\n\nProjetado para o mundo real, porque \u00e9 onde a vida acontece.\nGostar\u00edamos que seu novo PC fosse especial para voc\u00ea durante muitos anos. \u00c9 por isso que testamos a confiabilidade dos notebooks Inspiron pensando n\u00e3o apenas no agora, mas tamb\u00e9m no futuro.\n\nAltas temperaturas: de vesti\u00e1rios a carros fechados, testamos os notebooks Inspiron quanto \u00e0 resist\u00eancia em condi\u00e7\u00f5es de calor extremo de curto prazo de at\u00e9 65 \u00b0C/149 \u00b0F.\n\nDobradi\u00e7as robustas: testamos as dobradi\u00e7as do notebook Inspiron para garantir que elas permane\u00e7am firmes, mesmo ap\u00f3s abrir e fechar a tampa 20.000 vezes.\n\nTeclas resistentes: testamos as teclas usadas com mais frequ\u00eancia com dez milh\u00f5es de toques e os bot\u00f5es do touch pad com um milh\u00e3o de cliques sem falhas. Ent\u00e3o v\u00e1 em frente e conclua seu livro.\n\nBot\u00f5es dur\u00e1veis: n\u00e3o importa a fun\u00e7\u00e3o que voc\u00ea define para os bot\u00f5es liga/desliga e multim\u00eddia, n\u00f3s os testamos com 40.000 toques e n\u00e3o encontramos problemas.\n\nTor\u00e7\u00e3o: chame-nos de exagerados, mas ap\u00f3s for\u00e7ar a base e a tampa de um notebook Inspiron mais de 25.000 vezes, podemos garantir que as pe\u00e7as internas est\u00e3o muito bem-protegidas.\n\nSempre preparado: voc\u00ea provavelmente nunca precisar\u00e1 remover e reinstalar a bateria do seu Inspiron 30 vezes, mas fique tranquilo sabendo que tamb\u00e9m realizamos esse teste.\n\nComo funciona o 2 em 1\n\nPor ter uma tela que gira 360 graus, \u00e9 poss\u00edvel usar este ultrabook como um tablet, assim que o usu\u00e1rio girar a tela mais de 180 graus, o teclado e o touchpad \u00e9 automaticamente desativado, o aceler\u00f4metro acionado e o modo tablet no Windows 10 \u00e9 habilitado. Quando o usu\u00e1rio voltar com a tela na posi\u00e7\u00e3o menor de 180 graus, o teclado e o touchapd voltam a operar, inclusive, a ilumina\u00e7\u00e3o (se houver no modelo) deles volta a acender. \n\n\nEnquanto a tela estiver na posi\u00e7\u00e3o inferior a 180 graus, a sua orienta\u00e7\u00e3o n\u00e3o muda automaticamente, pois o aceler\u00f4metro est\u00e1 desativado, para isso, \u00e9 necess\u00e1rio realizar esta altera\u00e7\u00e3o manualmente na configura\u00e7\u00e3o de v\u00eddeo do sistema operacional.",
+        "storeProductDetail": "Core i3-7100, 4GB RAM, HD 1TB, tela 13.3 touchscreen FullHD, acelerometro, teclado retroiluminado e Windows 10 Home",
+        "storeProductDiscountEnable": true,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "i13-5378-a15",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 2154.27,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 2,
+        "storeProductTechnicalInformation": "Processador;7\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i3-7100U (2.4 GHz, Cache de 3 M)\nSistema operacional;Windows 10 Home Single Language, de 64 bits- em Portugu\u00eas (Brasil)\nMem\u00f3ria RAM;4GB, DDR4, 2400MHz (Velocidade m\u00e1xima de 2133MHz devido ao barramento do processador)\nArmazenamento;Disco r\u00edgido de 1.000GB (5400 RPM)\nPlaca de v\u00eddeo;Placa de v\u00eddeo Intel\u00ae HD Graphics 620\nTela;Full HD (1920 x 1080) de 13.3 polegadas, com Touchscreen, Truelife, \u00e2ngulos de vis\u00e3o amplos\nTeclado;retro iluminado - em Portugu\u00eas (Brasil)\nConectividade;Dell Wireless 1820 WiFi 802.11ac + Bluetooth 4.0 (2x2) (2.4/5.0 GHz)\nBateria;42WHr, 3-Cell Battery (Integrated)\nMicrosoft Office;Avalia\u00e7\u00e3o do Microsoft Office - v\u00e1lida por 30 dias\nSoftware de Seguran\u00e7a;McAfee LiveSafe - 1 ano\n\u00c1udio e alto-falantes;(2) alto-falantes ajustados processamento de \u00e1udio com o Waves MaxxAudio\u00ae Pro (1) entrada combinada para fone de ouvido/microfone\nC\u00e2mera;Webcam widescreen de alta defini\u00e7\u00e3o (720 p) com infravermelho e microfone digital\nPortas Laterais;1 Porta HDMI v1.4a, 2 Portas USB 3.0 (1 com PowerCharge), 1 Porta USB 2.0, 1 Conector para fone de ouvido/microfone, 1 leitor de cart\u00e3o Micro SD (SD/SDHC/SDXC)\nSlots;2 SODIMM \nChassi;Convers\u00edvel, gira em at\u00e9 360 graus. Tela n\u00e3o destac\u00e1vel.\nTeclado;retroiluminado resistente ao derramamento de l\u00edquidos\nTouchpad;multitoque ativado por gestos com rolagem integrada\nDimens\u00f5es;Altura: 1,9 cm \u2013 2,0 cm Largura 32,4 cm Profundidade 22,4 cm \nPeso;1,62 kg (3,56 lb) com tela FHD",
+        "storeProductTitle": "Notebook 2 em 1 Dell i13-5378-a15c",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domic\u00edlio diretamente com a Dell",
+        "storeProductWeight": 3,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1555336440125
+        }
+    },
+    "5bb789b064660516779500e6": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bb789b064660516779500e6"
+        },
+        "createdAt": {
+            "$date": 1538755243174
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 2938,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100,
+        "ean": "",
+        "images": [
+            "upload_0c14885732e5ac367f94804a437b058b.jpg",
+            "upload_01deae4e0f60c2bf5f61fc537b9b150e.jpg",
+            "upload_20bd49a99f7db776a20bd58ff56aa1d5.jpg",
+            "upload_126258d9dc65fe22386fe7271f49be27.jpg",
+            "upload_a115a3f66387ba5f277ffcbe6128bc20.jpg",
+            "upload_01cc2a2a23bb9c69003809a800c92978.jpg",
+            "upload_53756d51a84a7bc2e9434072f84d01a0.jpg",
+            "upload_44a500b6803cc4bd7e230a40ec1de83a.jpg"
+        ],
+        "includeOutletText": false,
+        "includeWarrantyText": false,
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto Outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante, geralmente pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o consertados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90.\nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800 970-3366 ou 0800 970-3384. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "O processador que equipa este notebook possui 4 n\u00facelos f\u00edsicos e 8 threads, o equivalente ao seu similar da oitava gera\u00e7\u00e3o para desktops. Desta forma, o seu desempenho tamb\u00e9m \u00e9 similar aos processadores para computadores desktops e muito superior aos demais Core i5 para notebooks, os quais possuem 2 n\u00facleos f\u00edsicos e 4 threads. J\u00e1 o chip gr\u00e1fico NVIDIA GeForce GTX 1050 Ti \u00e9 o mesmo para vers\u00e3o desktop, desta forma, proporcionando o mesmo desempenho. Em reala\u00e7\u00e3o aos chips gr\u00e1ficos NVIDIA M, sua performance \u00e9 muito superiro, por possuir muito mais Cuda Cores, frequ\u00eancia e instru\u00e7\u00f5es. As vers\u00f5es de ambos os chips (CPU e GPU) puderam ser usados neste notebook por causa do excelente sistema de refrigera\u00e7\u00e3o adotado pela Dell.\n\nA Qualidade de imagens da tela \u00e9 excelente, primeiramente por causa da tecnologia IPS, segundo pela retroilumina\u00e7\u00e3o em LEDs de alta iluminosidade, pelo recurso antirreflexo e pela resolu\u00e7\u00e3o Full HD (1920 x 1080 pixels).\n\nJ\u00e1 o teclado \u00e9 todo retroiluminado por LEDs azuis e com destaque para as teclas WASD. Por ser um produto importado, o seu layout \u00e9 em Ingl\u00eas internacional. O touchpad \u00e9 bem confort\u00e1vel. Possui uma \u00e1rea de opera\u00e7\u00e3o grande, com moldura retroiluminado na cor azul. superf\u00edcie deslizante e na mesma cor do que a parte interna.\n\nEste equipamento possui um sistema de seguran\u00e7a que limita a velocidade do CPU e do GPU quando estes atingem temperaturas perigosas. Se durante os jogos voc\u00ea perceber com frequ\u00eancia uma queda brusca de desempenho, recomendamos o uso de uma base para notebook com ventila\u00e7\u00e3o para ampliar o sistema de ventila\u00e7\u00e3o original.",
+        "storeProductDetail": "Core i5-8300H, 8GB, HD 1TB, GeForce GTX 1050 Ti, Tela IPS 15.6 FullHD, teclado retroiluminado e Linux Ubuntu",
+        "storeProductDiscountEnable": false,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "G77588U10P",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 28,
+        "storeProductPrice": 3760.64,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 3,
+        "storeProductTechnicalInformation": "Processador;8\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i5-8300H (quad-core, cache de 8 MB, at\u00e9 4 GHz com Turbo Boost)\nSistema operacional;Linux Ubuntu, de 64 bits - em Portugu\u00eas (Brasil)\nMem\u00f3ria RAM;Mem\u00f3ria de 8GB, DDR4, 2666 MHz, expans\u00edvel at\u00e9 32GB (mem\u00f3ria adicional vendida separadamente)\nArmazenamento;Disco r\u00edgido (5400RPM via SATA 6Gbps) de 1 TB com cache SSD de 8GB \nPlaca de v\u00eddeo;NVIDIA\u00ae GeForce\u00ae GTX 1050 Ti com GDDR5 de 4 GB\nTela;LED IPS Full HD (1920x1080) de 15,6 com antirreflexo\nDrivers;N\u00e3o possui DVD/RW\n\u00c1udio;Waves MaxxAudio\u00ae Pro com dois alto falantes e um micro subwoofer\nTeclado;Retroiluminado por LEDs azuis com layout em Ingl\u00eas Internacional. teclas WASD destacadas e teclado num\u00e9rico\nConex\u00f5es sem fio;Placa de rede Dell Wireless\u2122 802.11ac + Bluetooth 4.1, banda dupla (2.4 GHz/5 GHz)\nBateria;Bateria de 56 Wh e 4 c\u00e9lulas (integrada)\nWebcam;Resolu\u00e7\u00e3o de 720p a 60Hz com microfone est\u00e9reo \nFonte de alimenta\u00e7\u00e3o;Bivolt de 130 Watts\nConex\u00f5es;Fone de ouvido e microfone, USB 3.1 Tipo-A Gera\u00e7\u00e3o 1 SuperSpeed. USB tipo-C Thunderbolt 3 com suporte para Thunderbolt e DisplayPort de 40 Gbits, HDMI 2.0, rede Ethernet RJ-45 e cart\u00e3o MicroMedia SD 2 em 1\nDimens\u00f5es e peso;altura 25mm x largura de 39mm x profundidade de 275mm. Peso de 2,86 Kg.\nC\u00f3digo EAN;7899864917233",
+        "storeProductTitle": "Notebook gamer Dell G7 7588-u10p",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domic\u00edlio diretamente com a Dell",
+        "storeProductWeight": 4200,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1578234978974
+        }
+    },
+    "5bb78c1a64660516779500e8": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bb78c1a64660516779500e8"
+        },
+        "createdAt": {
+            "$date": 1538756183675
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 2705,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_bad3ff453520350128e226461aa17ea9.JPG",
+            "upload_a81c7c8c971aae758699bf53847490b7.JPG",
+            "upload_08aae1d41b0639159c683f113cb758b3.jpg",
+            "upload_b97f7147bc72a0e4db2c5abf34547eef.jpg",
+            "upload_d89f2003344bd91d4f20215f77af9acf.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o consertados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90. \nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800-970-3384 - op\u00e7\u00e3o 5. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "\nPor ter uma tela que gira 360 graus, \u00e9 poss\u00edvel usar este ultrabook como um tablet, assim que o usu\u00e1rio girar a tela mais de 180 graus, o teclado e o touchpad \u00e9 automaticamente desativado, o aceler\u00f4metro acionado e o modo tablet no Windows 10 \u00e9 habilitado. Quando o usu\u00e1rio voltar com a tela na posi\u00e7\u00e3o menor de 180 graus, o teclado e o touchapd voltam a operar, inclusive, a ilumina\u00e7\u00e3o (se houver no modelo) deles volta a acender. \n\nEnquanto a tela estiver na posi\u00e7\u00e3o inferior a 180 graus, a sua orienta\u00e7\u00e3o n\u00e3o muda automaticamente, pois o aceler\u00f4metro est\u00e1 desativado, para isso, \u00e9 necess\u00e1rio realizar esta altera\u00e7\u00e3o manualmente na configura\u00e7\u00e3o de v\u00eddeo do sistema operacional.",
+        "storeProductDetail": "Core i7-7500u, 8GB RAM, SSD 256GB, tela touchscreen 13.3 IPS FullHD, aceler\u00f4metro, teclado retroiluminado e Windows 10 Home",
+        "storeProductDiscountEnable": false,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "i13-5378-b40",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 3597.65,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 0,
+        "storeProductTechnicalInformation": "Processador;7\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i7-7500U (2.7 GHz expans\u00edvel at\u00e9 3,5 GHz, Cache de 4 M)\nSistema operacional;Windows 10 Home Single Language, de 64 bits- em Portugu\u00eas (Brasil)\nMem\u00f3ria RAM;8GB, DDR4, 2400MHz (Velocidade m\u00e1xima de 2133MHz devido ao barramento do processador)\nArmazenamento;Unidade de estado s\u00f3lido de 256 GB\nPlaca de v\u00eddeo;Intel\u00ae HD Graphics 620\nTela;Full HD (1920 x 1080) de 13.3 polegadas, com Touchscreen, Truelife, \u00e2ngulos de vis\u00e3o amplos\nTeclado;retro iluminado - em Portugu\u00eas (Brasil)\nConectividade;Dell Wireless 1820 WiFi 802.11ac + Bluetooth 4.0 (2x2) (2.4/5.0 GHz)\nBateria;42WHr, 3-Cell Battery (Integrated)\nMicrosoft Office;Avalia\u00e7\u00e3o do Microsoft Office - v\u00e1lida por 30 dias\nSoftware de Seguran\u00e7a;McAfee LiveSafe - 1 ano\n\u00c1udio e alto-falantes;(2) alto-falantes ajustados; processamento de \u00e1udio com o Waves MaxxAudio\u00ae Pro (1) entrada combinada para fone de ouvido/microfone\nC\u00e2mera;Webcam widescreen de alta defini\u00e7\u00e3o (720 p) com infravermelho e microfone digital\nPortas Laterais;1 Porta HDMI v1.4a 2 Portas USB 3.0 (1 com PowerCharge) 1 Porta USB 2.0 1 Conector para fone de ouvido/microfone 1 leitor de cart\u00e3o Micro SD (SD/SDHC/SDXC)\nSlots;2 SODIMM \nChassi;Convers\u00edvel, gira em at\u00e9 360 graus. Tela n\u00e3o destac\u00e1vel.\nTeclado;retroiluminado resistente ao derramamento de l\u00edquidos\nTouchpad;multitoque ativado por gestos com rolagem integrada\nDimens\u00f5es;Altura: 1,9 cm \u2013 2,0 cm (0,77\" \u2013 0,80\") Largura: 32,4 cm (12,76\") Profundidade: 22,4 cm (8,85\") \nPeso;1,62 kg (3,56 lb) com tela FHD",
+        "storeProductTitle": "Notebook 2 em 1 Dell i13-5378-b40",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domic\u00edlio diretamente com a Dell",
+        "storeProductWeight": 3,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1568582377577
+        }
+    },
+    "5bb78e8064660516779500ea": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bb78e8064660516779500ea"
+        },
+        "createdAt": {
+            "$date": 1538756684131
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 2441,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_035127ec356f7455b30bdfbb9afd569c.jpg",
+            "upload_6063fe12fdec6f3d6cce93347b2c48d3.jpg",
+            "upload_f65517d9f7e24326cc209301580f7c89.jpg",
+            "upload_9a0a424130fa9131a43a407d25026cf1.jpg",
+            "upload_1681338f4a5da6390b9185ae7634167e.jpg",
+            "upload_7cc3009f6b3e0f85451dc9134abc7b3d.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto Outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante, geralmente pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o recondicionados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90.\nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800 970-3366 ou 0800 970-3384. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "Ter um notebook com uma tela que gire at\u00e9 360 graus permite us\u00e1-lo em v\u00e1rias ocasi\u00f5es que exigam praticidade, performance, conforto ou apar\u00eancia. Devido ao aceler\u00f4metro, bot\u00e3o Home, sistema operacional, tela de toque e tecnologia IPS, voc\u00ea pode usar este notebook naturalmente com um tablet.\nNotebooks, ultrabooks ou at\u00e9 mesmo tablets com telas maiores proporcionam mais conforto e produtividade para o usu\u00e1rio, conseguindo exibir mais informa\u00e7\u00f5es numa tela, com qualidade e leitura mais agrad\u00e1vel. O Inspiron 15 5578 possui tela de 15,6 polegadas com resolu\u00e7\u00e3o Full HD (1920 x 1080), permitindo inclusive, assistir aos filmes de blu-ray sem perder qualidade.\nOutra caracter\u00edstica que porporciona mais conforto e produtividade \u00e9 o layout e tamanho do teclado, sendo que o Dell Inspiron 15 5578 possui o layout brasileiro ABNT2 com tamanho normal das teclas. Al\u00e9m disso, ele \u00e9 retroiluminado por LEDs brancos, que consomem muito pouca energia e ajudam a digitar em lugares escuros.\n\nComo estamos tratando de um produto para divers\u00e3o e conte\u00fados multim\u00eddias consomem muito espa\u00e7o, o Inspiron 15 5578 possui 1TB (1000GB) de capacidade para armazenar os seus filmes, v\u00eddeos, m\u00fasicas e muitas fotos.\nE por \u00faltimo, mas n\u00e3o menos importante na quest\u00e3o de conforto e produtividade, temos um touchpad com uma \u00e1rea de atua\u00e7\u00e3o muito grande, incluindo a \u00e1rea de cliques dos bot\u00f5es, al\u00e9m disso, ele permite gestos multi toques, como o movimento de pin\u00e7a, zoom e etc. Suporta at\u00e9 tr\u00eas toques simult\u00e2neos, que podem ser configurados pelo usu\u00e1rio no sistema operacional para realizar v\u00e1rias tarefas, como alternar aplicativo, por exemplo.\n\nComo funciona o 2 em 1\n\nPor ter uma tela que gira 360 graus, \u00e9 poss\u00edvel usar este ultrabook como um tablet, assim que o usu\u00e1rio girar a tela mais de 180 graus, o teclado e o touchpad \u00e9 automaticamente desativado, o aceler\u00f4metro acionado e o modo tablet no Windows 10 \u00e9 habilitado. Quando o usu\u00e1rio voltar com a tela na posi\u00e7\u00e3o menor de 180 graus, o teclado e o touchapd voltam a operar, inclusive, a ilumina\u00e7\u00e3o (se houver no modelo) deles volta a acender. \n\n\nEnquanto a tela estiver na posi\u00e7\u00e3o inferior a 180 graus, a sua orienta\u00e7\u00e3o n\u00e3o muda automaticamente, pois o aceler\u00f4metro est\u00e1 desativado, para isso, \u00e9 necess\u00e1rio realizar esta altera\u00e7\u00e3o manualmente na configura\u00e7\u00e3o de v\u00eddeo do sistema operacional.",
+        "storeProductDetail": "Core i7-7500U, 8GB RAM, HD 1TB, tela 15.6 touchscreen Full HD, teclado retroiluminado e Windows 10 Home",
+        "storeProductDiscountEnable": true,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "5578B20C",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 3084.2,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 4,
+        "storeProductTechnicalInformation": "Processador;7\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i7-7500U (2.7 GHz expans\u00edvel at\u00e9 3,5 GHz, Cache de 4 M)\nSistema operacional;Windows 10 Home Single Language, 64 bits - em Portugu\u00eas (Brasil)\nMem\u00f3ria RAM;8GB, DDR4, 2400MHz (Velocidade m\u00e1xima de 2133MHz devido ao barramento do processador)\nArmazenamento;Disco r\u00edgido (HD) de 1TB (5400 RPM) Sata 6Gbps\nPlaca de v\u00eddeo;Intel\u00ae HD Graphics 620\nTela;Tela de 15.6\u201d Full HD (1920 x 1080) sens\u00edvel ao toque com painel IPS e Truelife, ilumina\u00e7\u00e3o traseira por LED, \u00e2ngulos de vis\u00e3o amplos e c\u00e2mera com infravermelho\nTeclado;Teclado retroiluminado - em Portugu\u00eas (Brasil) padr\u00e3o ABNT2\nConectividade;Placa de rede Dell Wireless\u2122 802.11ac , banda dupla (2.4 GHz/5 GHz, 2x2)\nBateria;Bateria de 3 c\u00e9lulas e 42 Wh (integrada)\nMicrosoft Office;Avalia\u00e7\u00e3o do Microsoft\u00ae Office 2016 - V\u00e1lido por 30 dias\nSoftware de Seguran\u00e7a;McAfee LiveSafe - 1 ano\n\u00c1udio e alto-falantes;(2) alto-falantes ajustados; processamento de \u00e1udio com o Waves MaxxAudio\u00ae Pro (1) entrada combinada para fone de ouvido/ microfone\nC\u00e2mera;Webcam widescreen integrada de alta defini\u00e7\u00e3o (720 p) com microfone digital\nPortas Laterais;1 HDMI v1.4a 2 USB 3.0 (1 com PowerCharge) 1 USB 2.0 1 Conector para fone de ouvido/microfone\nSlots;1 Leitor de cart\u00e3o de micro ( SD/SDHC/SDXC) Slot de seguran\u00e7a de trava Noble\nChassi;Convers\u00edvel, gira em at\u00e9 360 graus. Tela n\u00e3o destac\u00e1vel. Alto- falante integrado;\nVoltagem;Bivolt\nTeclado/touch pad;Teclado resistente a derramamento de l\u00edquidos padr\u00e3o; touch pad de precis\u00e3o Teclado com Ilumina\u00e7\u00e3o traseira\nCor/Acabamento;Acabamento com pintura em cinza.\nDimens\u00f5es;Altura: 2,0 cm x Largura: 38,1 cm x Profundidade : 25,3 cm. \nPeso;a partir de 2,08Kg\nc\u00f3digo EAN;7899864908040",
+        "storeProductTitle": "Notebook 2 em 1 Dell  i15-5578-B20",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domic\u00edlio diretamente com a Dell",
+        "storeProductWeight": 3000,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1568582358623
+        }
+    },
+    "5bbb3c6164660516779500ec": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bbb3c6164660516779500ec"
+        },
+        "createdAt": {
+            "$date": 1538997990803
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 3155,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_9a9331f5e4304943d1384d5ebfe9bc9d.jpg",
+            "upload_0e5737b57da358cba191158f546ee02d.jpg",
+            "upload_d5941dd4e2e85a46cd8c90ac2d83a8b9.jpg",
+            "upload_f5747ada04e2558cd44654ce242f2f6d.jpg",
+            "upload_58c877dcc6cf1c881629daa97bf21990.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto Outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante, geralmente pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o recondicionados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90. O produto encontra-se em excelente estado, sem marcas de uso ou avaria est\u00e9ticas (arranh\u00f5es ou amassados).\nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800-970-3384 - op\u00e7\u00e3o 5. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "Atraente. Hipnotizante.\nResistente e sofisticado: Elaborado com um belo acabamento em alum\u00ednio escovado, o Inspiron 15 7000 possui sua moldura interna superior refor\u00e7ada com liga de magn\u00e9sio, em um projeto que equilibra estilo e resist\u00eancia .Materiais de alta qualidade e dimens\u00f5es reduzidas o tornam a companhia perfeita para pessoas que est\u00e3o sempre em movimento.\n\nSua identidade: Ao abrir, voc\u00ea encontra uma Tela Infinita de 15\u201c que cria amplitude e \u00e9 perfeita para realizar tarefas simult\u00e2neas ou para situa\u00e7\u00f5es quando voc\u00ea precisa compartilhar a tela com algu\u00e9m . O Inspiron 15 7000 possui a vantagem de uma tela de 15\u201d com dimens\u00f5es externas compar\u00e1veis a modelos de 14\u201d. Por fora, bordas lapidadas que se destacam em um design sofisticado e elegante. \n\nFascinante: Acabamento em alum\u00ednio na cor prata ou Cinza marine\n\n\nPremium em cada detalhe\nUma imagem deslumbrante: Desfrute de uma tela FullHD Truelife, com imagens n\u00edtidas e coloridas. Perfeita para assitir seus filmes e s\u00e9ries favoritos. Mas se mesmo assim preferir conectar na sua TV, a porta HDMI est\u00e1 pronta para o uso. \n\nPara quem sempre quer mais: Seu notebook Inspiron 15 7000 permite um desempenho incr\u00edvel com recentes e poderosas tecnologias como a 8\u00aa Gera\u00e7\u00e3o de Processadores Intel\u00ae Core\u2122 e placa de v\u00eddeo dedicada NVIDIA\u00ae GeForce\u00ae 150MX, preparados para entregar a melhor experi\u00eancia nos momentos em que voc\u00ea mais precisa do seu PC, como quando est\u00e1 editando imagens, jogando ou trabalhando em arquivos importantes.\n\nTotal produtividade: Mantenha sua produtividade usando o teclado retroiluminado que facilita o trabalho, mesmo em ambientes com pouca luz.\n\nAl\u00e9m disso, voc\u00ea pode escolher entre uma variedade de op\u00e7\u00f5es de armazenamento para guardar todas suas fotos e documentos importantes sem se preocupar com falta de espa\u00e7o. Op\u00e7\u00f5es que unem HDD e unidade de estado s\u00f3lido (SSD) Pcle oferecem ainda mais agilidade para seu sistema operacional e arquivos mais utilizados.\n\n\n \nMais do que um produto bonito.\nEfici\u00eancia excepcionalO Inspiron 15 7000 vem equipado com a 8\u00aa Gera\u00e7\u00e3o de processadores Intel\u00ae Core\u2122 i7 ou processadores Intel\u00ae Core\u2122 i5, proporcionando performance eficiente e consistente ao seu alcance.\n\nMem\u00f3ria para a realiza\u00e7\u00e3o de tarefas simult\u00e2neasA mem\u00f3ria DDR4 de at\u00e9 16 GB permite que voc\u00ea alterne programas em execu\u00e7\u00e3o de forma r\u00e1pida e f\u00e1cil, mesmo quando outros aplicativos est\u00e3o sendo executados em segundo plano.\n\nSom n\u00edtido e altoA tecnologia Waves MaxxAudio\u00ae Pro agrega clareza de som e dimensionalidade que elevam o n\u00edvel de suas m\u00fasicas e de seus v\u00eddeos.\n\n \nNovo Inspiron 15 7000 Ultrafino com a 8\u00aa Gera\u00e7\u00e3o de Processadores Intel\u00ae Core\u2122\nO Novo Inspiron 15 7000 Ultrafino possui novas tecnologias que ir\u00e3o aprimorar a sua produtividade e trar\u00e3o mais agilidade para todas as demandas as quais voc\u00ea precisa do seu notebook, seja no trabalho ou para entretenimento. A 8\u00aa Gera\u00e7\u00e3o de processadores Intel\u00ae Core\u2122 \u00e9 uma das principais novidades.\n\nTestes da Intel\u00ae6 demonstram performance at\u00e9 40% \u00b9 \u00b2 superior em compara\u00e7\u00e3o com a 7\u00aa Gera\u00e7\u00e3o. Dessa forma, voc\u00ea se mant\u00eam atualizado com as tecnologias mais recentes e poder\u00e1 desfrutar de uma experi\u00eancia de entretenimento imersiva e potencializar ainda mais o seu computador.\n\nA mais recente Gera\u00e7\u00e3o de Processadores Intel\u00ae Core\u2122 disp\u00f5e de diversas novidades e aperfei\u00e7oamentos como cria\u00e7\u00e3o de conte\u00fados e realiza\u00e7\u00e3o de tarefas di\u00e1rias at\u00e9 50%\u00b9 \u00b3 mais r\u00e1pido quando comparado com a 7\u00aa Gera\u00e7\u00e3o de Processadores Intel\u00ae Core\u2122. Al\u00e9m disso, ser\u00e1 possivel alternar entre programas e janelas e executar m\u00faltiplas tarefas sem se preocupar com travamentos, aproveitando um melhor desempenho na web, conforme testes realizados pela Intel\u00ae.\n\nVoc\u00ea ir\u00e1 desfrutar de upload e edi\u00e7\u00e3o de documentos, fotos e v\u00eddeos em quest\u00f5es de poucos minutos, al\u00e9m de criar apresenta\u00e7\u00f5es simultaneamente sem cortes e lentid\u00e3o. Al\u00e9m disso, \u00e9 possivel reproduzir e editar v\u00eddeos em 4K de uma forma r\u00e1pida e f\u00e1cil com a nova tecnologia das placas gr\u00e1ficas integradas Intel\u00ae UHD que oferecem melhor capacidade gr\u00e1fica para conte\u00fados de extrema qualidade. Dessa forma, voc\u00ea poder\u00e1 visualizar incr\u00edveis detalhes e imagens mais vibrantes e real\u00edsticas.",
+        "storeProductDetail": "Core i7-8550U, 16GB RAM, SSD 128GB, HD 1TB, Geforce MX150, tela IPS 15.6 FullHD, teclado retroiluminado e Windows 10 Home",
+        "storeProductDiscountEnable": false,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "i15-7572-M30S",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 4196.15,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 6,
+        "storeProductTechnicalInformation": "Processador;8\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i7-8550U (1.8 GHz expans\u00edvel at\u00e9 4GHz, cache de 8 MB)\nSistema Operacional;Windows 10 Home Single Language, 64 bits \u2013 em Portugu\u00eas\nMem\u00f3ria RAM;16GB (2x8GB), DDR4, 2400MHz, expans\u00edvel at\u00e9 32GB\nArmazenamento;SSD M.2 128GB + disco R\u00edgido de 1TB (5400 RPM)\nPlaca de v\u00eddeo;NVIDIA\u00ae GeForce\u00ae MX150 de 4GB, GDDR5\nTela;LED Full HD (1920 x 1080) de 15,6\" antirreflexo\nTeclado;padr\u00e3o ABNT2 - em Portugu\u00eas (Brasil), retroiluminado por LEDs na cor branca\nConectividade;Placa de rede Dell Wireless\u2122 802.11ac + Bluetooth 4.1, banda dupla (2.4 GHz/5 GHz, 2x2)\nBateria;3 c\u00e9lulas e 42 Wh (integrada)\nPacote Office;Avalia\u00e7\u00e3o por 30 dias do Microsoft\u00ae Office\nSoftware de Seguran\u00e7a;McAfee LiveSafe - 1 ano\nUnidade \u00f3ptica;sem unidade \u00f3ptica\nFonte de alimenta\u00e7\u00e3o;Adaptador CA de 65 Watts BCC",
+        "storeProductTitle": "Notebook Dell i15-7572-M30S",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domicilio diretamente com a Dell",
+        "storeProductWeight": 3,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1568582565095
+        }
+    },
+    "5bc9b0f94253f81781fac9d8": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bc9b0f94253f81781fac9d8"
+        },
+        "createdAt": {
+            "$date": 1539947246739
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 3602,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_a9feea2e9cef974d973f413bb67a3729.jpg",
+            "upload_34ffbe2894b1d6885c86cad2e78420d7.jpg",
+            "upload_b651eec7920dbeb02720104e84222295.jpg",
+            "upload_4501966544c95dba906264b98f0ff57e.jpg",
+            "upload_76558da245a04ab8916eb249c62432db.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto Outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o recondicionados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90. O produto encontra-se em excelente estado, sem marcas de uso ou avaria est\u00e9ticas (arranh\u00f5es ou amassados).\nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800-970-3384 - op\u00e7\u00e3o 5. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "Muitos n\u00e3o sabem, mas os processadores Core i7 para notebooks n\u00e3o possuem a mesma quantidade de n\u00facleos f\u00edsicos do que os processadores Core i7 para computadores desktops, isso se deve principalmente a limita\u00e7\u00e3o na refrigera\u00e7\u00e3o e no consumo de energia que os notebooks possuem, mas para os notebooks gamers, que possuem uma ventila\u00e7\u00e3o de alta performance e uma bateria com mais c\u00e9lulas, esta limita\u00e7\u00e3o pode ser eliminada.\n\nO processador Core i7-7700HQ que equipa este notebook possui quatro n\u00facleos f\u00edsicos, a mesma quantidade dos processadores Core i7 para desktops, como o i7-7700, por exemplo. Al\u00e9m disso, a frequ\u00eancia turbinada pode chegar a 3,8 GHz cada n\u00facleo. O SmartCache (que compartilha informa\u00e7\u00f5es com todos os n\u00facleos) \u00e9 de 6MB.\n\nOs chips gr\u00e1ficos que equipam os notebooks geralmente possuem quantidade de processadores reduzidos, frequ\u00eancias reduzidas, instru\u00e7\u00f5es ou mem\u00f3rias reduzidas. Isso \u00e9 necess\u00e1rio porque esquentaria muito o notebook, o qual n\u00e3o possui a mesma capacidade de refrigera\u00e7\u00e3o do que os computadores desktops, por\u00e9m, o chip gr\u00e1fico NVIDIA GeForce GTX 1050 TI que equipa estes notebooks gamers Dell Inspiron \u00e9 o mesmo que equipa as placas de v\u00eddeo para os computadores desktops, oferecendo a mesma performance. Isso foi poss\u00edvel porque o fabricante caprichou na refrigera\u00e7\u00e3o, tanto do CPU quanto do GPU.\n\n\nPara conseguir refrigerar estes dois poderosos chips (CPU e GPU), a Dell adotou dois sistemas de refrigera\u00e7\u00e3o independentes com canos duplos de cobre e duas ventoinhas com 240 l\u00e2minas t\u00e9rmicas. As sa\u00eddas de ar s\u00e3o pelas traseiras e laterais do notebook, evitando que o usu\u00e1rio tenha contato com este ar quente.\n\nGeralmente, os notebooks de alta performance s\u00e3o mais grossos para conseguir acomodar os sistemas de refrigera\u00e7\u00e3o maiores, mas no modelo Inspiron 15 7567, sua espessura \u00e9 t\u00e3o fina quanto os demais ultrabooks. Para conseguir uma altura de apenas 2,5 cm, a unidade \u00f3ptica (DVD-RW) foi removida, uma atitude que n\u00e3o incomoda tanto mais, pois este tipo de dispositivo est\u00e1 em desuso em fun\u00e7\u00e3o das novas tecnologias dispon\u00edveis no mercado.\n\n\n\nA tela de 15,6 polegadas com tecnologia IPS, resolu\u00e7\u00e3o Full HD (1920 x 1080 pixels) e antirreflexo, oferece um conforto visual e qualidade de imagem impressionante. A tela antirreflexo evita que ela mesma reflita as imagens que est\u00e3o atr\u00e1s do usu\u00e1rio, reduzindo consideravelmente as interfer\u00eancias visuais do ambiente, principalmente em locais mais claros e iluminados.\n\nQuando o jogador estiver em ambientes muito escuros, a visualiza\u00e7\u00e3o das teclas do teclado passa ser o problema, fazendo com que o jogador se perca no meio de uma partida at\u00e9 posicionar novamente os seus dedos sobre as teclas, para evitar isso, A Dell colocou em cada tecla uma ilumina\u00e7\u00e3o em LED branco, podendo inclusive, alterar o n\u00edvel de luminosidade pressionando a tecla F10. \n\nA qualidade sonora \u00e9 impressionante pelos alto falantes adotados, um dos recursos que mais contribuiu para isso \u00e9 a tecnologia Waves MaxxAudio e um mini subwoofer na parte debaixo, o que melhora os sinais para os sons mais graves.\n\nO conforto operacional das teclas \u00e9 muito boa, com resposta t\u00e1til suave, com ru\u00eddo no seu acionamento muito baixo e o seu layout seguindo o padr\u00e3o Brasileiro ABNT2. Por ser um notebook de porte maior, foi poss\u00edvel incluir um teclado num\u00e9rico sem reduzir o tamanho das teclas ou comprometer o layout do teclado alfab\u00e9tico ou teclado num\u00e9rico.\n\n\nOutro dispositivo que merece elogios em rela\u00e7\u00e3o ao conforto operacional e recursos \u00e9 o touch pad, com uma \u00e1rea grande de atua\u00e7\u00e3o, incluindo os bot\u00f5es. Ele suporta multi toques e gestos, o que ajuda os profissionais em alguns softwares de edi\u00e7\u00e3o.\n\nA rede sem fio Dual Band Dell 1820 permite atrav\u00e9s da frequ\u00eancia 2,4 GHz atingir dist\u00e2ncias maiores e atrav\u00e9s dos 5 GHz uma performance muito superior para jogos. Embora o sinal de 5 GHz n\u00e3o consiga operar bem em dist\u00e2ncias maiores, ele consegue um tempo de resposta muito baixo, ideal para reduzir os pings ou lags nos jogos multijogadores (games online) em que o roteador (tamb\u00e9m Dual Band) esteja pr\u00f3ximo ao notebook. Caso o jogador prefira a rede cabeada, este notebook possui ainda uma conex\u00e3o RJ-45 para rede ethernet de 1Gbps. Embora o chip de rede n\u00e3o seja da s\u00e9rie Killer, que foca todo o tr\u00e1fego da rede para os jogos online, ainda sim, \u00e9 melhor para jogos do que as redes sem fio (mesmo o Wi-Fi de 5GHz), mas traz o desconforto de cabos e reduz a mobilidade.\n\nPara reduzir a discrep\u00e2ncia de performance entre os chips (CPU e GPU) e o HD mec\u00e2nico, a Dell adotou uma unidade que possui 8GB de SSD integrado, no qual recebe os arquivos mais utilizados, isso melhora a performance geral do notebook, tanto em aplicativos de escrit\u00f3rio e profissionais quanto em jogos 3D e no pr\u00f3prio sistema operacional. Al\u00e9m disso, a placa m\u00e3e deste notebook possui um slot M.2 2280 para os cart\u00f5es SSD de at\u00e9 256GB.",
+        "storeProductDetail": "Core i7-7700HQ, 16GB, SSD 256GB, HD 1TB, tela IPS 15.6 FullHD, GeForce GTX 1050Ti, teclado retroiluminado e Windows 10 Home",
+        "storeProductDiscountEnable": false,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "7567B30",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 4790.66,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 0,
+        "storeProductTechnicalInformation": "Processador;7\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i7-7700HQ (4 n\u00facleos, expans\u00edvel at\u00e9 3,8 GHz, Cache de 6 MB)\nSistema operacional;Windows 10 Home Single Language, de 64 bits - em Portugu\u00eas (Brasil)\nMem\u00f3ria RAM;Mem\u00f3ria de 16GB Dual Channel, DDR4, 2400 MHz\nArmazenamento;Drive prim\u00e1rio SSD de 256GB + disco r\u00edgido de 1TB (5400 RPM)\nPlaca de v\u00eddeo;NVIDIA\u00ae GeForce\u00ae GTX 1050Ti com GDDR5 de 4 GB\nTela;LED Full HD retroiluminada (1920X1080) IPS de 15.6 polegadas com antirreflexo\nConectividade;Placa de rede Dell Wireless\u2122 802.11ac + Bluetooth 4.0, banda dupla (2.4 GHz/5 GHz, 2x2)\nBateria;74 Wh e 6 c\u00e9lulas (integrada)\nMicrosoft Office;Avalia\u00e7\u00e3o do Microsoft\u00ae Office - v\u00e1lida por 30 dias\nSoftware de Seguran\u00e7a;McAfee LiveSafe - 1 ano\n\u00c1udio e alto-falantes;2 alto-falantes ajustados e 1 subwoofer; processamento de \u00e1udio com Waves MaxxAudio\u00ae Pro \n1 entrada combinada de microfone/fone de ouvido\nC\u00e2mera;Webcam widescreen de alta defini\u00e7\u00e3o (720p) integrada com microfone de matriz digital dupla \nPortas;1 HDMI 2.0 3 USB 3.0 incluindo 1 com PowerShare\nSlots;1 slot de seguran\u00e7a de trava Noble 1 leitor de cart\u00e3o de mem\u00f3ria MMC/SD (UHS50) 2 em 1 e 1 rede Ethernet 10/100/1000 RJ-45\nCompartimentos;Porta de servi\u00e7o de f\u00e1cil acesso para upgrade de hardware\nOp\u00e7\u00f5es de cores;Acabamento em preto fosco\nTeclado;tamanho normal padr\u00e3o em ingl\u00eas, resistente a derramamento de l\u00edquidos, retroiluminado com luz vermelha e destaque nas teclas WASD\nSistema de Resfriamento;Duas sa\u00eddas de ar e dois coolers com 240 l\u00e2minas t\u00e9rmicas para resfriamento r\u00e1pido\nSem unidade de disco \u00f3ptico;\nVoltagem;Bivolt\nDimens\u00f5es;Altura : 2,5 cm x Largura : 38,4 cm x Profundidade : 27,4 cm\nPeso;2,62 kg\nC\u00f3digo EAN;07899864912511",
+        "storeProductTitle": "Notebook gamer Dell i15-7567-b30p",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domicilio diretamente com a Dell",
+        "storeProductWeight": 3,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1539947246739
+        }
+    },
+    "5bc9c44f4253f81781fac9db": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bc9c44f4253f81781fac9db"
+        },
+        "createdAt": {
+            "$date": 1539952155914
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 3354,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_a2da6464e0adf4363bc55fb681640dbf.jpg",
+            "upload_55ec0f72f32973742f6dc9a6359791d2.jpg",
+            "upload_2442a2c67fb7f32b5af948ce8ec66cbf.jpg",
+            "upload_4b49d71c715e6fad290dbdde5fceda0a.jpg",
+            "upload_3230b718a989fc26585af8a3fea4f77b.jpg",
+            "upload_901334df94f1900e066643105f8bf43b.jpg",
+            "upload_f10b346efe73a1f788c92b5f6d01876c.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o recondicionados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90. O produto encontra-se em excelente estado, sem marcas de uso ou avaria est\u00e9ticas (arranh\u00f5es ou amassados).\nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800-970-3384 - op\u00e7\u00e3o 5. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "Os novos modelos 7000 da linha Inspiron 14 da Dell est\u00e3o muito mais bonitos, com um acabamento prata perolizado tanto na tampa quanto na parte de baixo. Por dentro, o acabamento do gabinete possui uma textura lisa e emborrachada, enquanto o tamanho do notebook foi reduzido, gra\u00e7as \u00e0s molduras finas (ao contr\u00e1rio do que o fabricante anuncia, n\u00e3o se trata de bordas infinitas), que permitiu um porte semelhante aos de notebooks com tela de 13 polegadas. A espessura do notebook tamb\u00e9m foi reduzida, tornando este modelo um notebook de 14 polegadas bem mais port\u00e1til do que os seus concorrentes.\n\nAl\u00e9m da beleza, o notebook Dell Inspiron 14 7472 \u00e9 leve e resistente, com a moldura superior refor\u00e7ada com liga de magn\u00e9sio e o teclado resistente ao derramamento de l\u00edquidos. Para garantir que as dobradi\u00e7as permane\u00e7am firmes mesmo ap\u00f3s muito tempo de uso, o sistema foi testado mais de 20.000 vezes sem sofre altera\u00e7\u00f5es. J\u00e1 as teclas do teclado tamb\u00e9m foram testadas, com mais de 10 milh\u00f5es de toques e o touchpad pressionado mais de 1 milh\u00e3o de vezes, ambos sem apresentar falhas.\n\n\n\nUma conex\u00e3o que est\u00e1 se tornando raro em notebooks modernos \u00e9 o RJ-45 para rede cabeada, isso se deve \u00e0 finura dos notebooks e ultrabooks, pois este conector \u00e9 maior, mas a Dell conseguiu incluir esta conex\u00e3o, bastando puxar para baixo uma tampinha para permitir a conex\u00e3o do cabo de rede. No mais, as tradicionais conex\u00f5es dos modernos notebooks permanecem, como tr\u00eas portas USB, um HDMI 1.4a, um P2 para \u00e1udio e um leitor de cart\u00f5es SD.\n\nQuanto \u00e0 tela, a resolu\u00e7\u00e3o nativa \u00e9 Full HD (1920 x 1080 pixels), possui tecnologia IPS e Truelife, contraste elevado e brilho alto, em torno de 300 nits, mas o recurso de toque n\u00e3o est\u00e1 dispon\u00edvel. Devido \u00e0 finura das bordas, a webcam e os microfones embutidos passaram para a parte inferior da tela.\n\nA qualidade sonora \u00e9 impressionante, com apenas dois alto falantes, a Dell conseguiu um som alto e cristalino, com graves fortes e bem definidos, uma qualidade superior \u00e0 muitas caixas de som avulsas do mercado.\n\nO Teclado segue o padr\u00e3o Portugu\u00eas Brasileiro ABNT2, com retro ilumina\u00e7\u00e3o em LEDs brancos, que podem ter a sua intensidade alterada ou desligada pressionando a tecla F10. \u00c9 resistente ao derramamento de l\u00edquidos. O teclado num\u00e9rico n\u00e3o est\u00e1 presente, pois n\u00e3o caberia neste notebook. As teclas principais mantiveram o seu tamanho padr\u00e3o e suas posi\u00e7\u00f5es originais. S\u00e3o teclas silenciosas e a sua resposta t\u00e1til \u00e9 muito agrad\u00e1vel.\n\n\n\nJ\u00e1 o touchpad possui uma \u00e1rea grande de atua\u00e7\u00e3o, os bot\u00f5es tamb\u00e9m fazem parte desta \u00e1rea de atua\u00e7\u00e3o, ampliando mais ainda o seu tamanho operacional. A sua superf\u00edcie \u00e9 composta de um material bem deslizante. Multi toques e gestos s\u00e3o suportados, uma fun\u00e7\u00e3o \u00fatil para alguns profissionais.\n\nReferente \u00e0s conex\u00f5es sem fio, a rede Wireless da Dell possui banda dupla (dual band), ou seja, opera em duas frequ\u00eancias simultaneamente, uma de 2,4 GHz para dist\u00e2ncias maiores e outra de 5 GHz para performance mais elevada. Al\u00e9m disso, \u00e9 poss\u00edvel transmitir o v\u00eddeo atrav\u00e9s da tecnologia Intel WiDi. O bluetooth presente \u00e9 da vers\u00e3o 4.0\n\nQuando o notebook encontra-se alimentado pela bateria, este v\u00eddeo integrado da Intel assume, pois embora ele tenha uma performance mais fraca para fun\u00e7\u00f5es 3D e outras tarefas de v\u00eddeo avan\u00e7adas, ele consome menos energia, mas quando o notebook encontra-se alimentado pela rede el\u00e9trica, o v\u00eddeo GeForce MX150 da nVidia assume, por ter uma perfomance muito superior.\n",
+        "storeProductDetail": "Core i7-8550U, 16GB RAM, SSD 128GB + HD 1TB, GeForce MX150, tela 14 IPS FullHD, teclado retroiluminado e Windows 10 Home",
+        "storeProductDiscountEnable": false,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "7472m30s",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 4460.82,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 0,
+        "storeProductTechnicalInformation": "Processador;8\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i7-8550U (1.8GHz expans\u00edvel at\u00e9 4 GHz, cache de 8 MB)\nSistema Operacional;Windows 10 Home Single Language, de 64 bits - em Portugu\u00eas (Brasil)\nMem\u00f3ria;DDR4 de 16 GB em dual channel a 2400 MHz\nArmazenamento;Unidade prim\u00e1ria de 128GB SSD + Disco r\u00edgido de 1TB (5400 RPM) SATA 6Gbps\nPlaca de v\u00eddeo;NVIDIA\u00ae GeForce\u00ae MX150 de 4GB, GDDR5\nTela;LED IPS Full HD (1920 x 1080) de 14\" com Truelife e borda fina\nTeclado;Retroiluminado - em Portugu\u00eas brasileiro (ABNT2)\nConectividade;Placa de rede Dell Wireless\u2122 802.11ac + Bluetooth 4.1, banda dupla (2.4 GHz/5 GHz, 2x2)\nMultim\u00eddia;Webcam 720p com microfone est\u00e9reo\nBateria;3 c\u00e9lulas e 42 Wh (integrada)\nFonte de alimenta\u00e7\u00e3o;Adaptador bivolt CA de 65 Watts\nC\u00f3digo EAN;7899864913549",
+        "storeProductTitle": "Notebook Dell  i14-7472-m30s",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domicilio diretamente com a Dell",
+        "storeProductWeight": 3,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1539952155914
+        }
+    },
+    "5bc9d0654253f81781fac9dd": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bc9d0654253f81781fac9dd"
+        },
+        "createdAt": {
+            "$date": 1539960060981
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 2317,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_cb8056f08defcb53ff923301e9da8763.jpg",
+            "upload_efe4f96b1a86e6c96e13d0f7822daeb8.jpg",
+            "upload_98f963d871a719d07a4f01646730b39e.jpg",
+            "upload_6c2cdf41446620858dc3b7be4980f671.jpg",
+            "upload_aaa944ce70495d97855256d40498f05e.jpg",
+            "upload_3e758cd95ab9e828ec992e27e0e3abed.jpg",
+            "upload_0e9065e1db30f0b69534ea0a5de2f5d2.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto Outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante, geralmente pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o recondicionados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90.\nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800 970-3366 ou 0800 970-3384. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "Ter um notebook com uma tela que gire at\u00e9 360 graus permite us\u00e1-lo em v\u00e1rias ocasi\u00f5es que exigam praticidade, performance, conforto ou apar\u00eancia. Devido ao aceler\u00f4metro, bot\u00e3o Home, sistema operacional, tela de toque e tecnologia IPS, voc\u00ea pode usar este notebook naturalmente com um tablet.\nNotebooks, ultrabooks ou at\u00e9 mesmo tablets com telas maiores proporcionam mais conforto e produtividade para o usu\u00e1rio, conseguindo exibir mais informa\u00e7\u00f5es numa tela, com qualidade e leitura mais agrad\u00e1vel. O Inspiron 15 5578 possui tela de 15,6 polegadas com resolu\u00e7\u00e3o Full HD (1920 x 1080), permitindo inclusive, assistir aos filmes de blu-ray sem perder qualidade.\nOutra caracter\u00edstica que porporciona mais conforto e produtividade \u00e9 o layout e tamanho do teclado, sendo que o Dell Inspiron 15 5578 possui o layout brasileiro ABNT2 com tamanho normal das teclas. Al\u00e9m disso, ele \u00e9 retroiluminado por LEDs brancos, que consomem muito pouca energia e ajudam a digitar em lugares escuros.\nComo estamos tratando de um produto para divers\u00e3o e conte\u00fados multim\u00eddias consomem muito espa\u00e7o, o Inspiron 15 5578 possui 1TB (1000GB) de capacidade para armazenar os seus filmes, v\u00eddeos, m\u00fasicas e muitas fotos.\nE por \u00faltimo, mas n\u00e3o menos importante na quest\u00e3o de conforto e produtividade, temos um touchpad com uma \u00e1rea de atua\u00e7\u00e3o muito grande, incluindo a \u00e1rea de cliques dos bot\u00f5es, al\u00e9m disso, ele permite gestos multi toques, como o movimento de pin\u00e7a, zoom e etc. Suporta at\u00e9 tr\u00eas toques simult\u00e2neos, que podem ser configurados pelo usu\u00e1rio no sistema operacional para realizar v\u00e1rias tarefas, como alternar aplicativo, por exemplo.\n\nComo funciona o 2 em 1\n\nPor ter uma tela que gira 360 graus, \u00e9 poss\u00edvel usar este ultrabook como um tablet, assim que o usu\u00e1rio girar a tela mais de 180 graus, o teclado e o touchpad \u00e9 automaticamente desativado, o aceler\u00f4metro acionado e o modo tablet no Windows 10 \u00e9 habilitado. Quando o usu\u00e1rio voltar com a tela na posi\u00e7\u00e3o menor de 180 graus, o teclado e o touchapd voltam a operar, inclusive, a ilumina\u00e7\u00e3o (se houver no modelo) deles volta a acender. \n\n\nEnquanto a tela estiver na posi\u00e7\u00e3o inferior a 180 graus, a sua orienta\u00e7\u00e3o n\u00e3o muda automaticamente, pois o aceler\u00f4metro est\u00e1 desativado, para isso, \u00e9 necess\u00e1rio realizar esta altera\u00e7\u00e3o manualmente na configura\u00e7\u00e3o de v\u00eddeo do sistema operacional.",
+        "storeProductDetail": "Core i5-7200U, 8GB RAM, HD 1TB, tela IPS 15.6 Touchscreen FullHD, teclado retroiluminado e Windows 10 Home",
+        "storeProductDiscountEnable": false,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "5578a10",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 3081.61,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 0,
+        "storeProductTechnicalInformation": "Processador;7\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i5-7200U (2.5 GHz expans\u00edvel at\u00e9 3,1 GHz, Cache de 3 MB)\nSistema operacional;Windows 10 Home Single Language, 64 bits - em Portugu\u00eas (Brasil)\nMem\u00f3ria RAM;8GB, DDR4, 2400MHz (Velocidade m\u00e1xima de 2133MHz devido ao barramento do processador)\nArmazenamento;Disco r\u00edgido (HD) de 1TB (5400 RPM)\nPlaca de v\u00eddeo;Intel\u00ae HD Graphics 620\nTela;15.6\u201d Full HD (1920 x 1080) sens\u00edvel ao toque com painel IPS e Truelife, ilumina\u00e7\u00e3o traseira por LED, \u00e2ngulos de vis\u00e3o amplos e c\u00e2mera com infravermelho\nTeclado;retroiluminado - em Portugu\u00eas (Brasil) padr\u00e3o ABNT2\nConectividade;Placa de rede Dell Wireless\u2122 802.11ac , banda dupla (2.4 GHz/5 GHz, 2x2)\nBateria;3 c\u00e9lulas e 42 Wh (integrada)\nMicrosoft Office;Avalia\u00e7\u00e3o do Microsoft\u00ae Office 2016 - V\u00e1lido por 30 dias\nSoftware de Seguran\u00e7a;McAfee LiveSafe - 1 ano\n\u00c1udio e alto-falantes;(2) alto-falantes ajustados; processamento de \u00e1udio com o Waves MaxxAudio\u00ae Pro (1) entrada combinada para fone de ouvido/ microfone\nC\u00e2mera;Webcam widescreen integrada de alta defini\u00e7\u00e3o (720 p) com microfone digital Webcam widescreen de alta defini\u00e7\u00e3o (720 p) opcional com infravermelho e microfone digital\u200b\nPortas Laterais;1 HDMI v1.4a 2 USB 3.0 (1 com PowerCharge) 1 USB 2.0 1 Conector para fone de ouvido/microfone\nSlots;1 Leitor de cart\u00e3o de micro ( SD/SDHC/SDXC) Slot de seguran\u00e7a de trava Noble\nChassi;Convers\u00edvel, gira em at\u00e9 360 graus. Tela n\u00e3o destac\u00e1vel. Alto falante integrado\nVoltagem;Bivolt\nTeclado/touch pad;resistente a derramamento de l\u00edquidos padr\u00e3o; touch pad de precis\u00e3o Teclado com Ilumina\u00e7\u00e3o traseira\nCor/Acabamento;Acabamento com pintura em cinza.\nDimens\u00f5es;Altura: 2,0 cm x Largura: 38,1 cm x Profundidade : 25,3 cm. \nPeso;a partir de 2,08Kg\nC\u00f3digo EAN;7899864908033",
+        "storeProductTitle": "Notebook 2 em 1 Dell i15-5578-a10",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domicilio diretamente com a Dell",
+        "storeProductWeight": 3,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1568582394852
+        }
+    },
+    "5bca18574253f81781fac9ed": {
+        "__v": 0,
+        "_id": {
+            "$oid": "5bca18574253f81781fac9ed"
+        },
+        "createdAt": {
+            "$date": 1539972795196
+        },
+        "dealerName": "Dell",
+        "dealerProductActive": true,
+        "dealerProductPrice": 4005,
+        "dealerProductWarrantyDays": 90,
+        "displayPriority": 100.0,
+        "images": [
+            "upload_34563351f3e3c7cfc6b2c2ceb3e375f9.jpg",
+            "upload_12d1c2ea1c92d6ef489fc33d893e2a1c.jpg",
+            "upload_311b93a98e82f4b81bfb2d103495c3a6.jpg",
+            "upload_3abf3b9749076fdc243f23f178853eae.jpg",
+            "upload_9d1409c42630c3ce298f659529a759a9.jpg",
+            "upload_542d97f8f5bd69e2af5c8bb0f1541aa1.jpg",
+            "upload_94ed639e0cf0450d6b5da9cc57e6e3dd.jpg"
+        ],
+        "storeProductActive": true,
+        "storeProductAdditionalInformation": "Produto Outlet;Este \u00e9 um equipamento Dell outlet, ou seja, ele retornou para o fabricante pela lei do arrependimento do c\u00f3digo de defesa do consumidor (podendo ter sido usado em at\u00e9 7 dias) ou por outros motivos, mas ao retornar, ele passou novamente pelo processo de an\u00e1lise de qualidade e, havendo qualquer necessidade, s\u00e3o recondicionados, testados e reembalados pelo fabricante Dell do Brasil. A garantia de 3 meses \u00e9 fornecida pelo fabricante para cumprir o artigo 26, inciso II da lei 8078/90. O produto encontra-se em excelente estado, sem marcas de uso ou avaria est\u00e9ticas (arranh\u00f5es ou amassados).\nGarantia;A garantia de 3 meses \u00e9 diretamente e integralmente com a Dell do Brasil, ou seja, se o produto apresentar problemas mesmo dentro dos 7 primeiros dias, o cliente deve ligar para o telefone 0800-970-3384 - op\u00e7\u00e3o 5. Ap\u00f3s o diagn\u00f3stico feito pelo telefone, um t\u00e9cnico ir\u00e1 at\u00e9 a resid\u00eancia trocar a pe\u00e7a danificada. O Fabricante n\u00e3o \u00e9 obrigado a trocar todo o produto para resolver o problema, cabendo \u00e0 ele esta decis\u00e3o. Este prazo de 3 meses pode ser estendido em at\u00e9 4 anos atrav\u00e9s do telefone 0800 no site da Dell do Brasil.",
+        "storeProductCategory": "Notebooks",
+        "storeProductCommercialize": false,
+        "storeProductDescription": "Mais efici\u00eancia, leveza ainda maior\nO menor notebook de 13 polegadas do mundo: seu entretenimento pode ir com voc\u00ea a qualquer lugar. Pesando a partir de 2,67 lb, o menor, mais fino e mais leve XPS 13 est\u00e1 pronto para decolar. O tamanho \u00e9 t\u00e3o perfeito para as mesas de avi\u00e3o que voc\u00ea nem notar\u00e1 quando o passageiro \u00e0 sua frente reclinar o assento. \n\nPerformance excelente: com os novos processadores Intel\u00ae de 4 n\u00facleos de 8\u00aa gera\u00e7\u00e3o, mais n\u00facleos significam mais performance, mesmo com v\u00e1rios aplicativos em execu\u00e7\u00e3o. Al\u00e9m disso, o Dell Power Manager, desenvolvido pela Dell, permite escolher o modo de energia, que proporciona o m\u00e1ximo de energia do seu processador de forma din\u00e2mica, ao mesmo tempo que monitora e gerencia as temperaturas do sistema de forma inteligente. Some tudo e voc\u00ea ter\u00e1 o notebook de 13 polegadas mais eficiente da categoria*.\n\nTrabalhe ou jogue por mais tempo: voc\u00ea desfrutar\u00e1 de dura\u00e7\u00e3o da bateria incrivelmente longa \u2013 at\u00e9 19 horas e 46 minutos*, em um modelo FullHD, ao usar aplicativos de produtividade como o Word ou Excel.\n\nMem\u00f3ria mais r\u00e1pida, mais armazenamento: seu sistema \u00e9 inicializado e reiniciado em segundos gra\u00e7as ao armazenamento de unidade de estado s\u00f3lido de at\u00e9 1 TB. Realize tarefas simult\u00e2neas em um piscar de olhos, mesmo com uso intenso de aplicativos, com at\u00e9 16 GB de mem\u00f3ria.\n\n\nVisual atraente que mant\u00e9m a temperatura refrigerada\nSofisticado e estiloso: inspirada nas tend\u00eancias de \u00faltima moda, a vers\u00e3o em Rose Gold do novo XPS 13 lan\u00e7a um acabamento do apoio para as m\u00e3os exclusivo revestido de fibra de vidro tran\u00e7ada na cor branco-neve, desenvolvido especialmente para a Dell. Nossa equipe de design trabalhou incansavelmente para obter detalhes perfeitos: ilumina\u00e7\u00e3o traseira do teclado elaborada cuidadosamente, revestimento resistente a UV e manchas, que evita amarelamento e marcas ao longo do tempo, al\u00e9m de embalagem e acess\u00f3rios combinando.\n\nResist\u00eancia impressionante: o XPS 13 foi lapidado de um \u00fanico bloco de alum\u00ednio. Portanto, \u00e9 mais dur\u00e1vel do que uma m\u00e1quina composta por partes. Inspirados pelo setor aeroespacial, a fibra de carbono e a fibra de vidro tran\u00e7ada do apoio para as m\u00e3os permitem m\u00e1xima resist\u00eancia e peso m\u00ednimo. O Corning\u00ae Gorilla\u00ae Glass 4 \u00e9 duas vezes mais resistente a danos.\n\nPequenos detalhes, grande impacto: esteticamente falando, menos \u00e9 mais. Por isso, o logotipo do XPS em a\u00e7o inoxid\u00e1vel \u00e9 embutido, os detalhes regulamentares s\u00e3o gravados a laser e os p\u00e9s s\u00e3o da mesma cor para tornar o visual mais elegante. O acabamento em prata platinada polida produz um brilho reluzente.\n\nMais frio do que nunca: o XPS 13 \u00e9 o primeiro notebook desenvolvido com isolamento t\u00e9rmico da GORE\u2122, que oferece n\u00edveis de condutividade t\u00e9rmica menores do que o ar em um formato fino e flex\u00edvel, para manter seu notebook resfriado enquanto est\u00e1 em pleno vapor. Enquanto o isolamento da GORE\u2122 direciona o calor para longe do dispositivo, dois ventiladores e dissipadores de calor diminuem ainda mais a temperatura do XPS, permitindo maior performance em um formato mais fino.\n\n\nTecnologia avan\u00e7ada simplificada\nVoc\u00ea \u00e9 a senha: escolha entre duas maneiras seguras e personalizadas de fazer login. A c\u00e2mera infravermelho com Windows Hello reconhece seu rosto, desbloqueando o XPS com a segura tecnologia de reconhecimento facial. O leitor de impress\u00e3o digital integrado ao bot\u00e3o liga/desliga permite fazer login com apenas um toque.\n\nInicie uma conversa: o XPS 13 responde \u00e0 sua voz a at\u00e9 mais de 4 metros de dist\u00e2ncia, gra\u00e7as aos quatro microfones integrados, Microsoft Cortana e tecnologia de voz ativada para Waves. Controle suas playlists e acesse programa\u00e7\u00f5es, independentemente do ru\u00eddo de fundo.\n\nConectividade de ponta: as portas Type-C ThunderBolt\u2122 3 multiuso permitem recarregar o notebook, conectar-se a v\u00e1rios dispositivos (incluindo suporte para at\u00e9 dois monitores 4K) e desfrutar de transfer\u00eancias de dados de at\u00e9 40 Gbit/s, oito vezes mais r\u00e1pido do que uma porta USB 3.0*.\n\nDocking avan\u00e7ado: o XPS 13 pode ser usado com as solu\u00e7\u00f5es de Docking da Dell, com conex\u00f5es de cabo \u00fanico para energia, Ethernet, \u00e1udio e v\u00eddeo. Adicione o Dell Thunderbolt\u2122 Dock opcional para obter transfer\u00eancias de dados mais r\u00e1pidas e suporte para at\u00e9 tr\u00eas telas FullHD ou dois monitores 4K.\n\n\nEcologicamente inteligente\nPreservando os mares: reconhecida pela CES com o \"Pr\u00eamio O Melhor da Inova\u00e7\u00e3o 2018\", nossas embalagens do modelo prata est\u00e3o um passo \u00e0 frente da reciclagem. Vinte e cinco por cento dos materiais consistem em pl\u00e1stico coletado do oceano em \u00e1reas litor\u00e2neas, enquanto os 75% restantes s\u00e3o compostos por outros pl\u00e1sticos reciclados.\n\nBaixo consumo de energia: o XPS 13 conta com a certifica\u00e7\u00e3o ENERGY STAR\u00ae.\n\nMateriais mais inteligentes: sem materiais como c\u00e1dmio, chumbo, merc\u00fario e alguns ftalatos, ele conta tamb\u00e9m com a certifica\u00e7\u00e3o EPEAT\u00ae Gold* e n\u00e3o cont\u00e9m BFR/PVC.\n\nRecicl\u00e1vel: 90% das pe\u00e7as do notebook podem ser facilmente recicladas ou reutilizadas, e a embalagem branca do XPS 13 Rose Gold s\u00e3o 100% recicl\u00e1veis.\n\nO melhor em seguran\u00e7a com solu\u00e7\u00f5es de endpoint l\u00edderes do setor que incluem criptografia, autentica\u00e7\u00e3o e prote\u00e7\u00e3o de ponta contra amea\u00e7as.\n\n\n\n\u2022 Proteja os dados em v\u00e1rios endpoints com o Dell Data Protection | Encryption. Com esse recurso instalado de f\u00e1brica, os administradores de TI podem gerenciar remotamente as pol\u00edticas de criptografia para atender facilmente e de imediato \u00e0s regulamenta\u00e7\u00f5es de conformidade*.\n\n\u2022 O Dell Data Protection | Endpoint Security Suite Enterprise inclui preven\u00e7\u00e3o avan\u00e7ada contra amea\u00e7as, autentica\u00e7\u00e3o e criptografia de n\u00edvel empresarial e interrompe o malware antes que ela seja executado. De fato, testes comprovam que nossa prote\u00e7\u00e3o \u00e9 99% eficaz contra as amea\u00e7as em compara\u00e7\u00e3o com as solu\u00e7\u00f5es antiv\u00edrus tradicionais mais populares, que s\u00e3o capazes de detectar, em m\u00e9dia, apenas 50% das mesmas amea\u00e7as. \n\nO XPS mais gerenci\u00e1vel do mundo permite que a TI altere as configura\u00e7\u00f5es do BIOS e configure sistemas com a ampla flexibilidade que seus neg\u00f3cios exigem. \n\n\u2022 Compatibilidade com o Dell Client Command Suite: ferramentas gratuitas que ajudam a automatizar e simplificar a implanta\u00e7\u00e3o, o monitoramento e a atualiza\u00e7\u00e3o de sistemas em ambientes de TI complexos.\n\n\u2022 Instalado de f\u00e1brica, o Dell Command | Update elimina o demorado processo de busca, al\u00e9m de minimizar a interrup\u00e7\u00e3o do sistema.\n\n\u2022 Instalado de f\u00e1brica com o Dell Command | Power Manager e o Battery Extender Mode.\n\n\u2022 Simplifique as implanta\u00e7\u00f5es com longos ciclos de vida \u00fatil usando os Dell Configuration and Deployment Services com os Dell Imaging Services.\n\n\u2022 As solu\u00e7\u00f5es de gerenciamento de sistemas KACE atendem \u00e0s necessidades mais exigentes de gerenciamento de TI.\n\n\n",
+        "storeProductDetail": "Core i7-8550U, 8GB RAM, SSD 256GB, tela IPS 13.3 borda infinita FullHD, teclado retroiluminado, Wireless killer e Windows 10 Home",
+        "storeProductDiscountEnable": true,
+        "storeProductDiscountType": "%",
+        "storeProductDiscountValue": 5,
+        "storeProductHeight": 11,
+        "storeProductId": "9370m10s",
+        "storeProductLength": 48,
+        "storeProductMaker": "Dell",
+        "storeProductMarkup": 33,
+        "storeProductPrice": 5060.32,
+        "storeProductQtd": 0,
+        "storeProductQtdSold": 0,
+        "storeProductTechnicalInformation": "Processador;8\u00aa gera\u00e7\u00e3o do Processador Intel\u00ae Core\u2122 i7-8550U (expans\u00edvel at\u00e9 4.0GHz, 8M de cache)\nSistema Operacional;Windows 10 Home, de 64-bits - em Portugu\u00eas (Brasil)\nMem\u00f3ria;8GB, LPDDR3, 2133MHz (capacidade m\u00e1xima de at\u00e9 32GB)\nArmazenamento;SSD (Unidade de estado s\u00f3lido) de 256GB\nPlaca de v\u00eddeo;Intel\u00ae UHD Graphics 620\nTela;IPS LED 13.3 polegadas (1920 x 1080) com borda infinita\nTeclado;Retro iluminado - layout em Ingl\u00eas internacional\nConex\u00e3o sem fio;Killer Wireless 1435 802.11ac 2x2 com Bluetooth\n\u00c1udio;Waves MaxxAudio Pro\nUnidade \u00f3ptica;N\u00e3o possui leitor e gravador de CD/DVD\nBateria;Integrada com 4 c\u00e9lulas (52 Whr)\nPacote Office;Avalia\u00e7\u00e3o de 30 dias do Microsoft Office\nSoftware de seguran\u00e7a;Pacote McAfee LiveSafe - v\u00e1lida por 1 ano\nFonte de alimenta\u00e7\u00e3o;Adaptador CA de 45 watts\nDimens\u00f5es;Altura: 0.78 \u00e0 1.16cm, Largura: 30.2 cm, Profundidade: 19,9 cm\nPeso;1,21Kg\nC\u00f3digo EAN;7899864913716",
+        "storeProductTitle": "Ultrabook Dell XPS 9370-M10S",
+        "storeProductWarrantyDays": 0,
+        "storeProductWarrantyDetail": "Em domicilio diretamente com a Dell",
+        "storeProductWeight": 3,
+        "storeProductWidth": 38,
+        "updatedAt": {
+            "$date": 1539972795196
+        }
+    }
+}

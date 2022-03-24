@@ -3,6 +3,7 @@ from logger import debug, info, warning, error, critical
 import requests
 import os
 import json
+import copy
 from bson import ObjectId, json_util
 
 from pymongo import MongoClient 
@@ -30,6 +31,28 @@ class ZunkaInterface():
             db_products = db['products']
             for product in db_products.find():
                 print(product['storeProductTitle'])
+
+    # Return a dict (_id, product) for each product with a mercadoLivreId.
+    def get_some_products(self, qtd=10):
+        with MongoClient(self.MONGO_CONN_STR) as client:
+            #  print(client.list_database_names())
+            db_zunka = client['zunka']
+            #  print(db_zunka.list_collection_names())
+            col_products = db_zunka['products']
+            #  for product in col_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1}):
+
+            #  for product in col_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1}):
+                #  print(product)
+
+            #  return col_products.find({ 'mercadoLivreId': { '$exists': True } }, {'storeProductTitle': 1})
+            #  return col_products.find({ 'mercadoLivreId': { '$exists': True } })
+
+            products_by_id = {}
+            for product in col_products.find({ 'deletedAt': { '$exists': False } }).limit(qtd):
+                #  print(product)
+                products_by_id[str(product['_id'])] = product
+
+            return products_by_id
 
     # Return a dict (_id, product) for each product with a mercadoLivreId.
     def get_all_products(self):
@@ -121,8 +144,8 @@ class ZunkaInterface():
             # Not equal.
             if not ZunkaInterface.is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
                 result['not_equal'].append(zunka_id)
-                if self.update_meli_product(zunka_product, meli_product):
-                    result['updated'].append(meli_id)
+                #  if self.update_meli_product(zunka_product, meli_product):
+                    #  result['updated'].append(meli_id)
 
         return result
 
@@ -160,9 +183,10 @@ class ZunkaInterface():
 
             # Not equal.
             if not ZunkaInterface.is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
-                result['not_equal'].append(meli_id)
-                if self.update_meli_product(zunka_product, meli_product):
-                    result['updated'].append(meli_id)
+                result['not_equal'].append(zunka_id)
+                #  result['not_equal'].append(meli_id)
+                #  if self.update_meli_product(zunka_product, meli_product):
+                    #  result['updated'].append(meli_id)
 
         return result
 
@@ -197,8 +221,8 @@ class ZunkaInterface():
         return equal
 
     @staticmethod
-    def update_meli_product(zunka_product, meli_product):
-        debug(f'todo - update meli product {meli_product["id"]} from zunka {zunka_product["_id"]}')
+    def update_meli_product(zunka_product):
+        debug(f'todo - update meli product {zunka_product["mercadoLivreId"]} from zunka {zunka_product["_id"]}')
         # If updated.
         return True
 
@@ -206,6 +230,23 @@ class ZunkaInterface():
         debug(f'todo - update zunka product {zunka_product["_id"]} from meli product {meli_product["id"]}')
         # If updated.
         return True
+
+    # Return products from two list of products ids.
+    @staticmethod
+    def products_from_products_ids(products_ids_a, products_ids_b, products):
+        # All zunka ids to update.
+        all_products_ids = copy.copy(products_ids_a)
+        for product_id in products_ids_b:
+            if product_id not in all_products_ids:
+                all_products_ids.append(product_id)
+
+        # All zunka products to update.
+        products_result = []
+        for product_id in all_products_ids:
+            products_result.append(products.get(product_id))
+
+        return products_result
+
 
 class JSONEncoder(json.JSONEncoder):
     def default(self, o):

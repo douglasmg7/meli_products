@@ -21,6 +21,19 @@ class TestZunka:
         print(first_item)
         print(products[first_item]['mercadoLivreId'])
 
+    # zunka product from two list of products ids.
+    def test_products_from_products_ids(self):
+        zunka = ZunkaInterface()
+        zunka_products = loadDic('./json/10_zunka_products.json')
+        zunka_products_ids_a = ['5b97cd133a8d287da1fbf504', '5bb77fb064660516779500e4']
+        zunka_products_ids_b = ['5bb789b064660516779500e6', '5bb77fb064660516779500e4']
+
+        result = zunka.products_from_products_ids(zunka_products_ids_a, zunka_products_ids_b, zunka_products)
+        # Should not repeat product.
+        assert len(result) == 3
+        #  for product in result:
+            #  print(product['_id'])
+
 class TestConsistenceZunka:
     # No meli product.
     def test_check_zunka_products_consistence_no_meli_product(self):

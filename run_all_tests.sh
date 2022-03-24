@@ -23,5 +23,5 @@
 
 
 # New testes.
-pytest ./test_zunka.py::TestConsistenceMeli -sv
+pytest ./test_zunka.py::TestZunka::test_products_from_products_ids -sv
 
