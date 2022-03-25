@@ -6,10 +6,14 @@ import os
 import copy
 
 import util
+import platform
 from zunka import ZunkaInterface
 from meli import MeliInterface
 
-# set run mode
+# Python version.
+debug(f'Python version: {platform.python_version()}')
+
+# set run mode.
 run_mode = util.get_run_mode()
 PROD, TEST, DEV = run_mode['PROD'], run_mode['TEST'], run_mode['DEV']
 
@@ -23,6 +27,10 @@ debug(f'All Zunka products: {len(zunka_products)}')
     #  print(key)
     #  print(value['storeProductTitle'])
 #  print('\n')
+
+
+exit()
+print('not exited')
 
 
 meli = MeliInterface()
@@ -49,3 +57,4 @@ debug(f'Products to update: {zunka_products_to_update}')
 for zunka_product in zunka_products_to_update:
     zunka.update_meli_product(zunka_product)
 
+debug('Finshed.')
