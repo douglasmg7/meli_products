@@ -32,9 +32,6 @@ source $ZUNKA_UTIL_SCRIPTS/check_envs.sh \
 
 [[ $ERR != 0 ]] && exit 1
 
-echo "no error"
-exit
-
 # Remove meli timer and service.
 $MERCADO_LIVRE_PATH/bin/uninstall-meli-service.sh
 
@@ -86,11 +83,11 @@ EOF'
 # Create aldo service.
 echo "creating '/lib/systemd/system/meli.service'..."
 sudo \
-    GS=$GS \
     ZUNKAPATH=$ZUNKAPATH \
-    ALLNATIONS_DB=$ALLNATIONS_DB \
-    ALLNATIONS_USER=$ALLNATIONS_USER \
-    ALLNATIONS_PASS=$ALLNATIONS_PASS \
+    MONGODB_HOST=$MONGODB_HOST \
+    MERCADO_LIVRE_USER_ID=$MERCADO_LIVRE_USER_ID \
+    MERCADO_LIVRE_PATH=$MERCADO_LIVRE_PATH \
+    MERCADO_LIVRE_START_PRODUCTION_SCRIPT=$MERCADO_LIVRE_START_PRODUCTION_SCRIPT \
     ZUNKASITE_HOST_DEV=$ZUNKASITE_HOST_DEV \
     ZUNKASITE_USER_DEV=$ZUNKASITE_USER_DEV \
     ZUNKASITE_PASS_DEV=$ZUNKASITE_PASS_DEV \
@@ -104,19 +101,19 @@ Description=meli service
 [Service]
 Type=oneshot
 User=douglasmg7
-Environment="GS=$GS"
-Environment="ZUNKAPATH=$ZUNKAPATH"
-Environment="ALLNATIONS_DB=$ALLNATIONS_DB"
-Environment="ALLNATIONS_USER=$ALLNATIONS_USER"
-Environment="ALLNATIONS_PASS=$ALLNATIONS_PASS"
 Environment="RUN_MODE=production"
+Environment="ZUNKAPATH=$ZUNKAPATH"
+Environment="MONGODB_HOST=$MONGODB_HOST"
+Environment="MERCADO_LIVRE_USER_ID=$MERCADO_LIVRE_USER_ID"
+Environment="MERCADO_LIVRE_PATH=$MERCADO_LIVRE_PATH"
+Environment="MERCADO_LIVRE_START_PRODUCTION_SCRIPT=$MERCADO_LIVRE_START_PRODUCTION_SCRIPT"
 Environment="ZUNKASITE_HOST_DEV=$ZUNKASITE_HOST_DEV"
 Environment="ZUNKASITE_USER_DEV=$ZUNKASITE_USER_DEV"
 Environment="ZUNKASITE_PASS_DEV=$ZUNKASITE_PASS_DEV"
 Environment="ZUNKASITE_HOST_PROD=$ZUNKASITE_HOST_PROD"
 Environment="ZUNKASITE_USER_PROD=$ZUNKASITE_USER_PROD"
 Environment="ZUNKASITE_PASS_PROD=$ZUNKASITE_PASS_PROD"
-ExecStart=$GS/allnations/bin/fetch-xml-products-and-process.sh
+ExecStart=/bin/bash . $MERCADO_LIVRE_START_PRODUCTION_SCRIPT
 EOF'
 
 sudo systemctl start meli.timer
