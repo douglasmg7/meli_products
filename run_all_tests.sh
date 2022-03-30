@@ -14,7 +14,7 @@
 
 # # Meli.
 # pytest ./test_meli.py::TestMeliAuth -sv
-# pytest ./test_meli.py::TestMeliProducts -sv
+# pytest ./test_meli.py::TestMeliProduct -sv
 
 # # Zunka.
 # pytest ./test_zunka.py::TestZunka -sv
@@ -23,5 +23,5 @@
 
 
 # New testes.
-pytest ./test_zunka.py::TestZunka::test_products_from_products_ids -sv
+pytest ./test_meli.py::TestMeliProduct::test_get_product -sv
 

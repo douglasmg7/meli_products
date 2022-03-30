@@ -68,6 +68,27 @@ class MeliInterface():
     def get_all_products(self):
         return self.get_products_from_ids(self.get_all_products_id())
 
+    # Get meli product.
+    def get_product(self, meli_product_id):
+        token_access = self.get_token_access()
+        #  url = f'{MELI_API_URL}/users/{USER_ID}/items/search'
+        url = f'{MELI_API_URL}/items/{meli_product_id}'
+        headers = {'Authorization': f'Bearer {token_access}'}
+        r = requests.get(url, headers=headers)
+        #  print(f'get_product: {r.json()}')
+        return r.json()
+
+    # Update meli product stock.
+    def update_product_stock(self, meli_product_id, price, stock):
+        token_access = self.get_token_access()
+        #  url = f'{MELI_API_URL}/users/{USER_ID}/items/search'
+        url = f'{MELI_API_URL}/items/{meli_product_id}'
+        headers = {'Authorization': f'Bearer {token_access}'}
+        json = {"price": price, "available_quantity": stock})
+        r = requests.put(url, headers=headers, json=json)
+        print(f'update_product_stock: {r.json()}')
+        #  return r.json()['results']
+
     def log(self):
         debug(self.ZUNKASITE_HOST)
 
