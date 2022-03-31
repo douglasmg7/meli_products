@@ -38,6 +38,14 @@ class MeliInterface():
         #  print(f'get_all_products_id: {r.json()}')
         return r.json()['results']
 
+    def get_active_products_id(self):
+        token_access = self.get_token_access()
+        #  url = f'{MELI_API_URL}/sites/MLB/search?seller_id={USER_ID}'
+        url = f'{MELI_API_URL}/sites/MLB/search?seller_id={USER_ID}&attributes=results'
+        r = requests.get(url)
+        #  print(f'get_all_products_id: {r.json()}')
+        return r.json()['results']
+
     # dict of producs by id from a list of meli products id
     def get_products_from_ids(self, meli_products_id):
         att = '&attributes={attributes,id,price,category_id,title,available_quantity,pictures,seller_custom_field,sold_quantity,status}'
@@ -78,13 +86,15 @@ class MeliInterface():
         #  print(f'get_product: {r.json()}')
         return r.json()
 
-    # Update meli product stock.
-    def update_product_stock(self, meli_product_id, price, stock):
+    # Update meli product price and quantity.
+    def update_product(self, meli_product_id, price, quantity):
         token_access = self.get_token_access()
         #  url = f'{MELI_API_URL}/users/{USER_ID}/items/search'
         url = f'{MELI_API_URL}/items/{meli_product_id}'
         headers = {'Authorization': f'Bearer {token_access}'}
-        json = {"price": price, "available_quantity": stock})
+        json = {"price": price, "available_quantity": quantity}
+        #  json = {"base_price": price, "available_quantity": quantity}
+        print(f'json: {json}')
         r = requests.put(url, headers=headers, json=json)
         print(f'update_product_stock: {r.json()}')
         #  return r.json()['results']

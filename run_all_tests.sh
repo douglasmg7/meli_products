@@ -23,5 +23,6 @@
 
 
 # New testes.
-pytest ./test_meli.py::TestMeliProduct::test_get_product -sv
+# pytest ./test_meli.py::TestMeliProduct::test_update_product -sv
+pytest ./test_meli.py::TestMeliProduct::test_get_active_products_id -sv
 
