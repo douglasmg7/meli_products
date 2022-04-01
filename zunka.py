@@ -144,8 +144,6 @@ class ZunkaInterface():
             # Not equal.
             if not ZunkaInterface.is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
                 result['not_equal'].append(zunka_id)
-                #  if self.update_meli_product(zunka_product, meli_product):
-                    #  result['updated'].append(meli_id)
 
         return result
 
@@ -184,9 +182,6 @@ class ZunkaInterface():
             # Not equal.
             if not ZunkaInterface.is_zunka_product_and_meli_products_equal(zunka_product, meli_product):
                 result['not_equal'].append(zunka_id)
-                #  result['not_equal'].append(meli_id)
-                #  if self.update_meli_product(zunka_product, meli_product):
-                    #  result['updated'].append(meli_id)
 
         return result
 
@@ -221,11 +216,6 @@ class ZunkaInterface():
         return equal
 
     @staticmethod
-    def update_meli_product(zunka_product):
-        debug(f'todo - update meli product {zunka_product["mercadoLivreId"]} from zunka {zunka_product["_id"]}')
-        # If updated.
-        return True
-
     def update_zunka_product(self, zunka_product, meli_product):
         debug(f'todo - update zunka product {zunka_product["_id"]} from meli product {meli_product["id"]}')
         # If updated.

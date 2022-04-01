@@ -34,12 +34,19 @@ class TestMeliProduct:
         assert len(products) > 0
         #  print(products)
 
-    def test_get_active_products_id(self):
+    def test_get_active_products(self):
         meli = MeliInterface()
-        products = meli.get_active_products_id()
+        products = meli.get_active_products()
         assert len(products) > 0
-        print(json.dumps(products[0], indent=4, sort_keys=True))
+        #  print(json.dumps(products[0], indent=4, sort_keys=True))
         print(f'Products len: {len(products)}')
+
+    def test_get_active_products_ids(self):
+        meli = MeliInterface()
+        ids = meli.get_active_products_ids()
+        assert len(ids) > 0
+        #  print(json.dumps(products[0], indent=4, sort_keys=True))
+        print(f'Products ids: {ids}')
 
     def test_get_products_from_ids(self):
         meli = MeliInterface()
@@ -73,43 +80,40 @@ class TestMeliProduct:
 
     def test_update_product(self):
         meli = MeliInterface()
-        products = meli.get_all_products_id()
+        products = meli.get_active_products()
         assert len(products) > 0
-        print(f'Meli products cound: {len(products)}')
-
-        not_paused_meli_product_found = False
-        for meli_product_id in products:
-            meli_product = meli.get_product(meli_product_id)
-            if meli_product['status'] == 'paused':
-                print(f'Product {meli_product["id"]} paused')
-            else:
-                not_paused_meli_product_found = True
-                break
-
-        print(f'not_paused_meli_product_found: {not_paused_meli_product_found}')
-        print(f'meli_product found: {meli_product["id"]}')
-        print(f'meli_product for: {meli_product_id}')
-        exit
-
-        print(f'Meli product to be get: {meli_product_id}')
-        meli_product = meli.get_product(meli_product_id)
-        #  print(json.dumps(meli_product, indent=4, sort_keys=True))
+        meli_product = products[0]
         product_id = meli_product["id"]
+        product_title = meli_product["title"]
+        product_price = meli_product["price"]
         product_qty = meli_product["available_quantity"]
-        product_price = meli_product["base_price"]
-        print(f'id: {product_id}')
-        print(f'title: {meli_product["title"]}')
-        print(f'available_quantity: {product_qty}')
-        print(f'base_price: {meli_product["base_price"]}')
-        print(f'price: {product_price}')
+        print(f'\nOriginal product: {product_id}')
+        print(f'    title: {product_title}')
+        print(f'    price: {product_price}')
+        print(f'    available_quantity: {product_qty}')
         assert product_qty > 0
         # Can do the test if product not have stock.
         assert meli_product["available_quantity"] > 0
-        product_qty = product_qty - 1
-        product_price = product_price + 1
-        print(f'Quantity: {product_qty}, price: {product_price}')
-        #  meli.update_product(product_id, product_price, product_qty)
 
+        # New values.
+        new_product_qty = product_qty - 1
+        new_product_price = product_price - 1
+        print(f'Will be change to: quantity: {new_product_qty}, price: {new_product_price}')
 
-        #  print(json.dumps(meli_product, indent=4, sort_keys=True))
+        # Update product.
+        meli.update_product(product_id, new_product_price, new_product_qty)
+        changed_product = meli.get_product(product_id)
+        assert  changed_product["price"] == new_product_price   
+        assert  changed_product["available_quantity"] == new_product_qty
+        print(f'Changed product: {changed_product["id"]}')
+        print(f'    price: {changed_product["price"]}')
+        print(f'    available_quantity: {changed_product["available_quantity"]}')
 
+        # Restore product.
+        meli.update_product(product_id, product_price, product_qty)
+        restored_product = meli.get_product(product_id)
+        assert  restored_product["price"] == product_price   
+        assert  restored_product["available_quantity"] == product_qty
+        print(f'Restored product: {restored_product ["id"]}')
+        print(f'    price: {restored_product["price"]}')
+        print(f'    available_quantity: {restored_product["available_quantity"]}')

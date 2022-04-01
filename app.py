@@ -29,17 +29,23 @@ debug(f'All Zunka products: {len(zunka_products)}')
 #  print('\n')
 
 
-exit()
-print('not exited')
+#  debug('Temporary finish.')
+#  exit()
+#  print('Not exited!')
 
 
 meli = MeliInterface()
-meli_products = meli.get_all_products()
+meli_products = meli.get_active_products()
+meli_products = MeliInterface.make_dic_id_product(meli_products)
 
 debug(f'All Meli products: {len(meli_products)}')
 #  for key, value in meli_products.items():
     #  print(key)
     #  print(value)
+
+#  debug('Temporary finish.')
+#  exit()
+#  print('Not exited!')
 
 # Check zunka products consistence.
 check_result_zunka = zunka.check_zunka_products_consistence(zunka_products, meli_products)
@@ -55,6 +61,7 @@ debug(f'Products to update: {zunka_products_to_update}')
 
 # Update meli products.
 for zunka_product in zunka_products_to_update:
-    zunka.update_meli_product(zunka_product)
+    debug(f'Updating meli product {zunka_product["mercadoLivreId"]}, price: {zunka_product["storeProductPrice"]}, Quantity: {zunka_product["storeProductQtd"]}')
+    #  meli.update_product(zunka_product['mercadoLivreId'], zunka_product['storeProductPrice'], zunka_product['storeProductQtd'])
 
 debug('Finshed.')

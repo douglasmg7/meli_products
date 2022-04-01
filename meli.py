@@ -38,13 +38,27 @@ class MeliInterface():
         #  print(f'get_all_products_id: {r.json()}')
         return r.json()['results']
 
-    def get_active_products_id(self):
+    def get_active_products(self):
         token_access = self.get_token_access()
         #  url = f'{MELI_API_URL}/sites/MLB/search?seller_id={USER_ID}'
         url = f'{MELI_API_URL}/sites/MLB/search?seller_id={USER_ID}&attributes=results'
         r = requests.get(url)
-        #  print(f'get_all_products_id: {r.json()}')
-        return r.json()['results']
+        try:
+            products = r.json()['results'] 
+            if len(products) >= 40:
+                warning(f'Meli active producst quantity: len(products)')
+            return products
+        except:
+            #  error(f'No results for get_active_products: {r.json()}')
+            error(f'No results for get_active_products:')
+            return []
+
+    def get_active_products_ids(self):
+        products = self.get_active_products()
+        ids = []
+        for product in products:
+            ids.append(product['id'])
+        return ids
 
     # dict of producs by id from a list of meli products id
     def get_products_from_ids(self, meli_products_id):
@@ -94,10 +108,9 @@ class MeliInterface():
         headers = {'Authorization': f'Bearer {token_access}'}
         json = {"price": price, "available_quantity": quantity}
         #  json = {"base_price": price, "available_quantity": quantity}
-        print(f'json: {json}')
+        #  print(f'json: {json}')
         r = requests.put(url, headers=headers, json=json)
-        print(f'update_product_stock: {r.json()}')
-        #  return r.json()['results']
+        #  print(f'result update_product: {r.json()}')
 
     def log(self):
         debug(self.ZUNKASITE_HOST)
@@ -111,6 +124,16 @@ class MeliInterface():
                 l.append([])
             l[i//max_size_list].append(v)
         return l
+
+    # Make a dict of producs by id.
+    @staticmethod
+    def make_dic_id_product(meli_products):
+        products = {}
+        for product in meli_products:
+            products[product['id']] = product
+
+        return products
+
 
     def __repr__(self):
         return f'{self.ZUNKASITE_USER}:{self.ZUNKASITE_PASS}@{self.ZUNKASITE_HOST}'
