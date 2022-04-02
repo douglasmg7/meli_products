@@ -29,9 +29,9 @@ debug(f'All Zunka products: {len(zunka_products)}')
 #  print('\n')
 
 
-#  debug('Temporary finish.')
-#  exit()
-#  print('Not exited!')
+debug('Temporary finish.')
+exit()
+print('Not exited!')
 
 
 meli = MeliInterface()
