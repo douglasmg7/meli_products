@@ -204,14 +204,33 @@ class ZunkaInterface():
                 f'\t meli price: {meli_product.get("price")}'
             )
             equal = False
-        # Stock.
-        if zunka_product.get('storeProductQtd') != meli_product.get('available_quantity'):
+        # Meli stock must be up to max zunka stock. If meli have stock less than zunka, but at least one if have stock at zunka, its ok.
+        # Stock 0 at zunka, meli must be 0.
+        if (zunka_product.get('storeProductQtd') <= 0) and (meli_product.get('available_quantity') > 0):
             debug(
-                f'zunka product {zunka_product.get("_id")} have different available_quantity from meli product {meli_product.get("id")}\n'
+                f'zunka product {zunka_product.get("_id")} have 0 stock quantity and meli product {meli_product.get("id")} have stock\n'
                 f'\tzunka available_quantity: {zunka_product.get("storeProductQtd")}\n'
                 f'\t meli available_quantity: {meli_product.get("available_quantity")}'
             )
             equal = False
+        # Zunka stock more than 0.
+        else:
+            # Meli have stock 0.
+            if meli_product.get('available_quantity') <= 0:
+                debug(
+                    f'meli product {meli_product.get("id")} have stock 0, but zunka product {zunka_product.get("_id")} have stock > 0\n'
+                    f'\tzunka available_quantity: {zunka_product.get("storeProductQtd")}\n'
+                    f'\t meli available_quantity: {meli_product.get("available_quantity")}'
+                )
+                equal = False
+            # Meli have stock bigger than zunka.
+            if meli_product.get('available_quantity') > zunka_product.get('storeProductQtd'):
+                debug(
+                    f'meli product {meli_product.get("id")} have stock bigger than zunka product {zunka_product.get("_id")}\n'
+                    f'\tzunka available_quantity: {zunka_product.get("storeProductQtd")}\n'
+                    f'\t meli available_quantity: {meli_product.get("available_quantity")}'
+                )
+                equal = False
 
         return equal
 
